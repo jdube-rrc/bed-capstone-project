@@ -1,0 +1,741 @@
+{
+  "character": "marisa",
+  "url": "https://ultimateframedata.com/sf6/marisa",
+  "scrapedAt": "2025-10-16T22:23:50.544Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "6",
+          "totalFrames": "19",
+          "damage": "400",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "0",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "11"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "7",
+          "totalFrames": "25",
+          "damage": "700",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "+2",
+          "onBlock": "-1",
+          "activeFrames": "4",
+          "recovery": "17"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "12...23",
+          "totalFrames": "36...46",
+          "damage": "1000...1200",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'.",
+          "onHit": "+3...+7",
+          "onBlock": "-3...+4",
+          "activeFrames": "2",
+          "recovery": "23...21"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "6",
+          "totalFrames": "21",
+          "damage": "400",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "0",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "14"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "11",
+          "totalFrames": "30",
+          "damage": "800",
+          "attackType": "High",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "4",
+          "recovery": "16"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "15...24",
+          "totalFrames": "41...50",
+          "damage": "1000...1200",
+          "attackType": "High",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Partial charges that do not transition to knockdown are always still the same +1 on hit / -3 on block, any transition into knockdown is always knockdown +36 on hit / +1 on block.",
+          "onHit": "+1...Knockdown +36",
+          "onBlock": "-3...+1",
+          "activeFrames": "2",
+          "recovery": "25"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "15",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "10"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "8",
+          "totalFrames": "26",
+          "damage": "700",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "16"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "9...21",
+          "totalFrames": "36...47",
+          "damage": "900...1000",
+          "attackType": "High",
+          "cancellable": "-- (Hold: Super)",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Full Juggle State on charged hit. Has a 9 frame input buffer during recovery as of December 2024 patch. Hold version can be cancelled into Super as of the June 2025 patch.",
+          "onHit": "Knockdown +35...+52",
+          "onBlock": "-6...-3",
+          "activeFrames": "5",
+          "recovery": "23...21"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "19",
+          "damage": "300",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+2",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "12"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "9",
+          "totalFrames": "29",
+          "damage": "600",
+          "attackType": "Low",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "11...20",
+          "totalFrames": "39...45",
+          "damage": "1000...1200",
+          "attackType": "Low",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'.",
+          "onHit": "Knockdown +29...36",
+          "onBlock": "-11...-3",
+          "activeFrames": "3",
+          "recovery": "26...20"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Forward + Medium Punch",
+          "startup": "10",
+          "totalFrames": "31",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "+2",
+          "onBlock": "-3",
+          "activeFrames": "2",
+          "recovery": "20"
+        },
+        {
+          "name": "Back + Heavy Punch",
+          "startup": "8...20",
+          "totalFrames": "30...39",
+          "damage": "900...1000",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'.",
+          "onHit": "+3...+13",
+          "onBlock": "-1...+4",
+          "activeFrames": "2",
+          "recovery": "24...19"
+        },
+        {
+          "name": "Malleus Breaker (Down-Forward + Heavy Punch)",
+          "startup": "21...28",
+          "totalFrames": "43...48",
+          "damage": "900...1000",
+          "attackType": "Overhead",
+          "cancellable": "Target Combo",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'.",
+          "onHit": "0...+5",
+          "onBlock": "-3...+2",
+          "activeFrames": "2",
+          "recovery": "21...19"
+        },
+        {
+          "name": "Falx Crusher Kick (Forward + Heavy Kick)",
+          "startup": "14...27",
+          "totalFrames": "38...49",
+          "damage": "900...1000",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'.",
+          "onHit": "0...+10",
+          "onBlock": "-3...+3",
+          "activeFrames": "4",
+          "recovery": "21...19"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Light Punch, Light Punch",
+          "startup": "6, 14",
+          "totalFrames": "19, 38",
+          "damage": "400, 600",
+          "attackType": "High",
+          "cancellable": "First Hit: --\n\t\tSecond Hit: Special, Super",
+          "notes": "Second hit does not combo unless counter hit.",
+          "onHit": "0, -3",
+          "onBlock": "-2, -6",
+          "activeFrames": "3, 3",
+          "recovery": "11, 22"
+        },
+        {
+          "name": "Medium Punch, Medium Punch",
+          "startup": "7, 14",
+          "totalFrames": "25, 38",
+          "damage": "700, 600",
+          "attackType": "High",
+          "cancellable": "First Hit: --\n\t\tSecond Hit: Special, Super",
+          "onHit": "+2, -3",
+          "onBlock": "-1, -8",
+          "activeFrames": "4, 2",
+          "recovery": "17, 23"
+        },
+        {
+          "name": "Heavy Two Hitter (Heavy Punch, Heavy Punch)",
+          "startup": "12...26, 24",
+          "totalFrames": "36...49, 45",
+          "damage": "1000...1200, 1000",
+          "attackType": "High",
+          "notes": "Second hit always scales to 90% (900).",
+          "onHit": "+3...+6, Knockdown +42",
+          "onBlock": "-3...+3, +2",
+          "activeFrames": "2, 3",
+          "recovery": "23...22, 19"
+        },
+        {
+          "name": "Forward + Medium Punch, Heavy Punch",
+          "startup": "10, 11",
+          "totalFrames": "31, 38",
+          "damage": "800, 800",
+          "attackType": "High, Low",
+          "onHit": "+2, Knockdown +31",
+          "onBlock": "-3, -12",
+          "activeFrames": "2, 2",
+          "recovery": "20, 26"
+        },
+        {
+          "name": "Forward + Medium Punch, Heavy Kick",
+          "startup": "10, 11",
+          "totalFrames": "31, 37",
+          "damage": "800, 800",
+          "attackType": "High, High",
+          "onHit": "+2, Knockdown +39",
+          "onBlock": "-3, -10",
+          "activeFrames": "2, 4",
+          "recovery": "20, 23"
+        },
+        {
+          "name": "Down-Forward + Heavy Punch, Down-Forward + Heavy Punch",
+          "startup": "21...31, 18",
+          "totalFrames": "43...51, 43",
+          "damage": "900...1000, 900",
+          "attackType": "Overhead, Overhead",
+          "notes": "Can hold down the button to charge the first attack, data listed as 'no charge...max charge'. Second hit knocks down as of December 2024 patch.",
+          "onHit": "0...+5, Knockdown +29",
+          "onBlock": "-3...+2, -12",
+          "activeFrames": "2, 2",
+          "recovery": "21...19, 24"
+        },
+        {
+          "name": "Forward + Heavy Kick, Forward + Heavy Kick",
+          "startup": "14...27, 16",
+          "totalFrames": "38...49, 45",
+          "damage": "900...1000, 1000",
+          "attackType": "High, High",
+          "cancellable": "First Hit: Special, Super\n\t\tSecond Hit: --",
+          "notes": "Can hold down the button to charge the first attack, data listed as 'no charge...max charge'.",
+          "onHit": "0...+10, Knockdown +40",
+          "onBlock": "-3...+3, -12",
+          "activeFrames": "4, 5",
+          "recovery": "21...19, 25"
+        },
+        {
+          "name": "Jump Medium Punch, Jump Medium Punch",
+          "startup": "7, 10",
+          "totalFrames": "**",
+          "damage": "700, 800",
+          "attackType": "Overhead, Overhead",
+          "notes": "Limited Juggle State on air hit with first hit, Forced Knockdown on air hit with second hit.",
+          "onHit": "+8..., --",
+          "onBlock": "+4..., --",
+          "activeFrames": "4, 3",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "4",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+6...",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "7",
+          "damage": "700",
+          "attackType": "Overhead",
+          "cancellable": "Target Combo",
+          "notes": "Limited Juggle State on air hit.",
+          "onHit": "+8...",
+          "onBlock": "+4...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "10...28",
+          "damage": "800...1500",
+          "attackType": "Overhead",
+          "notes": "Knockdown on aerial hit. Can hold down the button to charge the attack, data listed as 'no charge...max charge'.",
+          "onHit": "+9...Knockdown +69...",
+          "onBlock": "+5...+12...",
+          "activeFrames": "7...6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+4...",
+          "onBlock": "+1...",
+          "activeFrames": "10",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "8",
+          "damage": "500",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+6...",
+          "activeFrames": "8",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "10...29",
+          "damage": "800...1500",
+          "attackType": "Overhead",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'.",
+          "onHit": "+10...Knockdown +70...",
+          "onBlock": "+6...+13...",
+          "activeFrames": "7...6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Caelum Arc (Neutral Jump > Down + Heavy Punch)",
+          "startup": "9...28",
+          "damage": "800...1500",
+          "attackType": "Overhead",
+          "notes": "Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Crosses up.",
+          "onHit": "+11...+15 (Knockdown +71...)",
+          "onBlock": "+7...+11 (+14...+18)",
+          "activeFrames": "9",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Gladius (Light Punch)",
+          "startup": "17...30",
+          "totalFrames": "41...53",
+          "damage": "1200...1200, 1200",
+          "attackType": "High, Hit Throw",
+          "notes": "Charged version breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 5 until 3-6 frames before becoming active (affected by charge).",
+          "onHit": "Knockdown +36...+40",
+          "onBlock": "-5...+4",
+          "activeFrames": "4",
+          "recovery": "21...20",
+          "inputSequence": "Down, Down-Forward, Forward + Light Punch"
+        },
+        {
+          "name": "Gladius (Medium Punch)",
+          "startup": "19...35",
+          "totalFrames": "43...58",
+          "damage": "1400...1400, 1200",
+          "attackType": "High, Hit Throw",
+          "notes": "Charged version breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 5 until 3-6 frames before becoming active (affected by charge).",
+          "onHit": "Knockdown +36...+40",
+          "onBlock": "-5...+4",
+          "activeFrames": "4",
+          "recovery": "21...20",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Punch"
+        },
+        {
+          "name": "Gladius (Heavy Punch)",
+          "startup": "22...41",
+          "totalFrames": "46...64",
+          "damage": "1600...1600, 1200",
+          "attackType": "High, Hit Throw",
+          "notes": "Charged version breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 5 until 3-6 frames before becoming active (affected by charge).",
+          "onHit": "Knockdown +36...+40",
+          "onBlock": "-5...+4",
+          "activeFrames": "4",
+          "recovery": "21...20",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Punch"
+        },
+        {
+          "name": "Gladius (Overdrive)",
+          "startup": "19...35",
+          "totalFrames": "43...58",
+          "damage": "1700...1700, 1200",
+          "attackType": "High, Hit Throw",
+          "notes": "Breaks armor. Can hold down the button to charge the attack, data listed as 'no charge...max charge'. Transitions to a two-hit attack into a hit throw when fully charged. Total frames and recovery frames listed for charge version are for whiffed hit. One hit of upper body hit armor starting at frame 1 until becoming active (affected by charge). Charged version grants two hits of upper body hit armor. Adds 30% scaling in combos as of May 2024 patch.",
+          "onHit": "Knockdown +36...+40",
+          "onBlock": "-2...+4",
+          "activeFrames": "4",
+          "recovery": "21...20",
+          "inputSequence": "Down, Down-Forward, Forward + PP"
+        },
+        {
+          "name": "Dimachaerus (Light Punch)",
+          "startup": "12, 13",
+          "totalFrames": "45, 40",
+          "damage": "600, 600",
+          "attackType": "High",
+          "notes": "Can followup with Forward + Punch for a second hit, listed as second hit in data.",
+          "onHit": "-3, Knockdown +31",
+          "onBlock": "-16, --",
+          "activeFrames": "4, 5",
+          "recovery": "30, 23",
+          "inputSequence": "Down, Down-Back, Back + Light Punch"
+        },
+        {
+          "name": "Dimachaerus (Medium Punch)",
+          "startup": "16, 13",
+          "totalFrames": "49, 41",
+          "damage": "700, 600",
+          "attackType": "High",
+          "notes": "Can followup with Forward + Punch for a second hit, listed as second hit in data. As of June 2025 patch, Anti Air Invuln increased and is now waist-up (was previously just the head).",
+          "onHit": "0, Knockdown +36",
+          "onBlock": "-16, --",
+          "activeFrames": "4, 5",
+          "recovery": "30, 24",
+          "inputSequence": "Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Dimachaerus (Heavy Punch)",
+          "startup": "22, 18",
+          "totalFrames": "55, 45",
+          "damage": "800, 600",
+          "attackType": "High",
+          "notes": "Can followup with Forward + Punch for a second hit, listed as second hit in data. Full Juggle State on hit for both hits.",
+          "onHit": "Knockdown +38, Ground Bounce +56",
+          "onBlock": "-16, --",
+          "activeFrames": "4, 5",
+          "recovery": "30, 23",
+          "inputSequence": "Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Dimachaerus (Overdrive)",
+          "startup": "16, 13",
+          "totalFrames": "45, 40",
+          "damage": "600, 600",
+          "attackType": "High",
+          "notes": "Can followup with Forward + Punch for a second hit, listed as second hit in data. Full Juggle State on hit for both hits.",
+          "onHit": "Knockdown +42, Ground Bounce +56",
+          "onBlock": "-12, --",
+          "activeFrames": "4, 5",
+          "recovery": "30, 23",
+          "inputSequence": "Down, Down-Back, Back + PP"
+        },
+        {
+          "name": "Phalanx (Light Punch)",
+          "startup": "25",
+          "totalFrames": "45",
+          "damage": "1500",
+          "attackType": "High",
+          "notes": "One hit of armor on frames 7-11. 6 Active frames as of December 2024 patch.",
+          "onHit": "Knockdown +42",
+          "onBlock": "+2",
+          "activeFrames": "6",
+          "recovery": "18",
+          "inputSequence": "Forward, Down, Down-Forward + Light Punch"
+        },
+        {
+          "name": "Phalanx (Medium Punch)",
+          "startup": "28",
+          "totalFrames": "48",
+          "damage": "1600",
+          "attackType": "High",
+          "notes": "One hit of armor on frames 7-13. 6 Active frames as of December 2024 patch.",
+          "onHit": "Knockdown +42",
+          "onBlock": "+2",
+          "activeFrames": "6",
+          "recovery": "18",
+          "inputSequence": "Forward, Down, Down-Forward + Medium Punch"
+        },
+        {
+          "name": "Phalanx (Heavy Punch)",
+          "startup": "32",
+          "totalFrames": "52",
+          "damage": "1700",
+          "attackType": "High",
+          "notes": "One hit of armor on frames 10-15. 6 Active frames as of December 2024 patch.",
+          "onHit": "Knockdown +42",
+          "onBlock": "+2",
+          "activeFrames": "6",
+          "recovery": "18",
+          "inputSequence": "Forward, Down, Down-Forward + Heavy Punch"
+        },
+        {
+          "name": "Phalanx (Overdrive)",
+          "startup": "28",
+          "totalFrames": "48",
+          "damage": "1400",
+          "attackType": "High",
+          "notes": "One hit of armor on frames 6-12. Wall Splats in the corner on hit. 6 Active frames as of December 2024 patch.",
+          "onHit": "Knockdown +70",
+          "onBlock": "+4",
+          "activeFrames": "6",
+          "recovery": "18",
+          "inputSequence": "Forward, Down, Down-Forward + PP"
+        },
+        {
+          "name": "Quadriga (Light Kick)",
+          "startup": "20",
+          "totalFrames": "47",
+          "damage": "1400",
+          "attackType": "High",
+          "onHit": "Knockdown +35",
+          "onBlock": "-6",
+          "activeFrames": "4",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Quadriga (Medium Kick)",
+          "startup": "24",
+          "totalFrames": "49",
+          "damage": "1500",
+          "attackType": "High",
+          "onHit": "Knockdown +37",
+          "onBlock": "-4",
+          "activeFrames": "4",
+          "recovery": "22",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Quadriga (Heavy Kick)",
+          "startup": "29",
+          "totalFrames": "53",
+          "damage": "1600",
+          "attackType": "High",
+          "onHit": "Knockdown +37",
+          "onBlock": "-3",
+          "activeFrames": "4",
+          "recovery": "21",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Quadriga (Overdrive)",
+          "startup": "24",
+          "totalFrames": "51",
+          "damage": "1500",
+          "attackType": "High",
+          "notes": "Breaks armor.",
+          "onHit": "Wall Splat +50...+68",
+          "onBlock": "-6",
+          "activeFrames": "4",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Scutum",
+          "startup": "3",
+          "totalFrames": "**",
+          "damage": "840",
+          "attackType": "Parry",
+          "notes": "Upper body armor while active, but really wonkie and depends on the hitbox/hurtbox of the attacker (can armor Ryu cr.LP but not Juri cr.LP, for instance). Gives more advantage versus light attacks. Followup attack breaks armor (as of May 2024 patch).",
+          "onHit": "+1...+3",
+          "onBlock": "-3",
+          "activeFrames": "26...116",
+          "recovery": "26",
+          "inputSequence": "Down, Down-Back, Back + K"
+        },
+        {
+          "name": "Scutum (Overdrive)",
+          "startup": "1",
+          "totalFrames": "**",
+          "damage": "840",
+          "attackType": "Parry",
+          "notes": "Full body armor while active. Gives more advantage versus light attacks. Followup attack breaks armor (as of May 2024 patch).",
+          "onHit": "+1...+3",
+          "onBlock": "-5",
+          "activeFrames": "25...28",
+          "recovery": "29",
+          "inputSequence": "Down, Down-Back, Back + KK"
+        },
+        {
+          "name": "Scutum > Tonitrus",
+          "startup": "(9...+)15, 20",
+          "totalFrames": "40, 58",
+          "damage": "900, 1000",
+          "attackType": "Overhead, High",
+          "onHit": "+1, Knockdown +31",
+          "onBlock": "-3, -21",
+          "activeFrames": "3, 3",
+          "recovery": "23, 36",
+          "inputSequence": "Down, Down-Back, Back + K > P, P"
+        },
+        {
+          "name": "Scutum > Procella",
+          "startup": "(9...+)16",
+          "totalFrames": "55",
+          "damage": "1200",
+          "attackType": "Low",
+          "onHit": "Knockdown +22",
+          "onBlock": "-24",
+          "activeFrames": "3",
+          "recovery": "37",
+          "inputSequence": "Down, Down-Back, Back + K > K"
+        },
+        {
+          "name": "Scutum > Enfold",
+          "startup": "(9...+)5",
+          "totalFrames": "61",
+          "damage": "2500",
+          "attackType": "Throw",
+          "onHit": "Knockdown +18",
+          "activeFrames": "3",
+          "recovery": "54",
+          "inputSequence": "Down, Down-Back, Back + K > LP+LK"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Javelin of Marisa (Level 1)",
+          "startup": "19 (42) (6)",
+          "damage": "2200 (2900) (2400)",
+          "attackType": "High (High) (Parry)",
+          "notes": "Has two hits of full body armor on frames 2-23. Breaks armor. Charged version transitions to a parry version of the move when the armor is struck. Data listed as: Normal (Full Charge) (Parry). Counter damaged reduced from 2640 to 2400 in June 2025 patch.",
+          "onHit": "Knockdown +14 (Knockdown +35) (Knockdown +46)",
+          "onBlock": "-43 (-43) (--)",
+          "activeFrames": "5",
+          "recovery": "60",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        },
+        {
+          "name": "Meteorite (Level 2)",
+          "startup": "9 (34)",
+          "damage": "3000 (2500)",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-16. Breaks armor. Late hit listed in parenthesis. As of June 2025 patch, can now hold left/right to adjust distance moved during attack.",
+          "onHit": "Knockdown +17",
+          "onBlock": "** (-44)",
+          "activeFrames": "8 (4)",
+          "recovery": "** (59)",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + Punch"
+        },
+        {
+          "name": "Goddess of the Hunt (Level 3)",
+          "startup": "13",
+          "damage": "4000 (4500)",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-19. Breaks armor. Critical Art in parenthesis.",
+          "onHit": "Knockdown +14 (Knockdown +14)",
+          "onBlock": "-39",
+          "activeFrames": "7",
+          "recovery": "60",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + P"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 132 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+23",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 106 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+33",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,605 @@
+{
+  "character": "mbison",
+  "url": "https://ultimateframedata.com/sf6/mbison",
+  "scrapedAt": "2025-10-16T22:24:04.389Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "5",
+          "totalFrames": "17",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "notes": "June 2025 patch: active from 3 to 2 frames, on-block from -2 to -3 frames, recovery from 9 to 11 frames, total frames from 16 to 17.",
+          "onHit": "+4",
+          "onBlock": "-3",
+          "activeFrames": "2",
+          "recovery": "11"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "8",
+          "totalFrames": "25",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+6",
+          "onBlock": "0",
+          "activeFrames": "3",
+          "recovery": "15"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "19",
+          "totalFrames": "38",
+          "damage": "1000",
+          "attackType": "High",
+          "notes": "Blowback +17 on Punish Counter hit. Limited juggle potential. June 2025 patch: hurtbox shifted forward, fixed a UFD error that showed anti-air invincibility on frame 18 which is actually strike invincibility.",
+          "onHit": "+4...+6",
+          "onBlock": "+1...+3",
+          "activeFrames": "3",
+          "recovery": "17"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "4",
+          "totalFrames": "15",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "10"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "10",
+          "totalFrames": "29",
+          "damage": "700",
+          "attackType": "High",
+          "notes": "June 2025 patch: active frames from 4 to 3, recovery from 16 to 17, extended hurtbox.",
+          "onHit": "+2",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "17"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "13",
+          "totalFrames": "36",
+          "damage": "900",
+          "attackType": "High",
+          "notes": "Limited juggle potential.",
+          "onHit": "+6",
+          "onBlock": "-2",
+          "activeFrames": "4",
+          "recovery": "19"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "15",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "10"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "6",
+          "totalFrames": "22 (25 on whiff)",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "14 (17 on whiff)"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "10",
+          "totalFrames": "36",
+          "damage": "900",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "0",
+          "onBlock": "-9",
+          "activeFrames": "6",
+          "recovery": "21"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "16",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "10"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "8",
+          "totalFrames": "29",
+          "damage": "500",
+          "attackType": "Low",
+          "cancellable": "Special, Super",
+          "notes": "20% damage scaling to followup combo hits.",
+          "onHit": "-2",
+          "onBlock": "-6",
+          "activeFrames": "3",
+          "recovery": "19"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "11",
+          "totalFrames": "39",
+          "damage": "900",
+          "attackType": "Low",
+          "notes": "Limited juggle potential. As of December 2024 patch: on-block from -11 to -12.",
+          "onHit": "Knockdown +29",
+          "onBlock": "-12",
+          "activeFrames": "3",
+          "recovery": "26"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Forward + Heavy Punch (Psycho Hammer)",
+          "startup": "22",
+          "totalFrames": "44",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Limited juggle potential. Ground bounces into a limited juggle state on airborn opponents.",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "20"
+        },
+        {
+          "name": "Back + Heavy Kick (Evil Knee)",
+          "startup": "10",
+          "totalFrames": "30",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+4",
+          "onBlock": "+1",
+          "activeFrames": "4",
+          "recovery": "17"
+        },
+        {
+          "name": "Down-Forward + Heavy Kick (Hover Kick)",
+          "startup": "15",
+          "totalFrames": "47",
+          "damage": "900",
+          "attackType": "Low",
+          "notes": "Limited juggle potential.",
+          "onHit": "Knockdown +25",
+          "onBlock": "-15...-6",
+          "activeFrames": "10",
+          "recovery": "23"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Medium Punch, Forward + Heavy Punch (Shadow Hammer)",
+          "startup": "8, 22",
+          "totalFrames": "25, 44",
+          "damage": "600, 800",
+          "attackType": "High, Overhead",
+          "notes": "Does not combo on hit.",
+          "onHit": "+6, +3",
+          "onBlock": "0, -3",
+          "activeFrames": "3, 3",
+          "recovery": "15, 20"
+        },
+        {
+          "name": "Medium Punch, Down + Heavy Kick (Shadow Spear)",
+          "startup": "8, 16",
+          "totalFrames": "25, 39",
+          "damage": "600, 700",
+          "attackType": "High, Low",
+          "notes": "Combos on hit.",
+          "onHit": "+6, +3",
+          "onBlock": "0, -3",
+          "activeFrames": "3, 4",
+          "recovery": "15, 20"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+9",
+          "onBlock": "+5",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "8",
+          "damage": "700",
+          "attackType": "Overhead",
+          "notes": "Can follow up with Medium Punch again on hit (Hell Attack).",
+          "onHit": "+10...",
+          "onBlock": "+6...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "9",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+8...+15",
+          "onBlock": "+4...+11",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up. As of December 2024 patch: Updated cross-up hitbox and extended it backwards to match the hitbox length of Jumping Medium Kick.",
+          "onHit": "+7...+10",
+          "onBlock": "+3...+6",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "7",
+          "damage": "500",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+9...+13",
+          "onBlock": "+5...+9",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+11...+15",
+          "onBlock": "+7...+11",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Psycho Crusher (Light Punch)",
+          "startup": "14",
+          "totalFrames": "55",
+          "damage": "1200 (1200, 500)",
+          "attackType": "High",
+          "notes": "1 hit of projectile armor frames 16--31. Anti-air invincible frames 6--17. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block. June 2025 patch: startup from 16 to 14, on-hit knockdown from +20 to +24.",
+          "onHit": "Knockdown +24... (+42)",
+          "onBlock": "-20... (+6)",
+          "activeFrames": "16",
+          "recovery": "24",
+          "inputSequence": "Back Charge, Forward + Light Punch"
+        },
+        {
+          "name": "Psycho Crusher (Medium Punch)",
+          "startup": "20",
+          "totalFrames": "59",
+          "damage": "1400 (1400, 500)",
+          "attackType": "High",
+          "notes": "1 hit of projectile armor frames 20--35. Anti-air invincible frames 6--21. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block. June 2025 patch: on-hit knockdown from +20 to +24.",
+          "onHit": "Knockdown +24... (+42)",
+          "onBlock": "-20... (+6)",
+          "activeFrames": "16",
+          "recovery": "24",
+          "inputSequence": "Back Charge, Forward + Medium Punch"
+        },
+        {
+          "name": "Psycho Crusher (Heavy Punch)",
+          "startup": "24",
+          "totalFrames": "73",
+          "damage": "1400 (1600, 500)",
+          "attackType": "High",
+          "notes": "1 hit of projectile armor frames 24--49. Anti-air invincible frames 6--25. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block.",
+          "onHit": "Knockdown +14... (+46)",
+          "onBlock": "-23... (+5)",
+          "activeFrames": "26",
+          "recovery": "24",
+          "inputSequence": "Back Charge, Forward + Heavy Punch"
+        },
+        {
+          "name": "Psycho Crusher (Overdrive)",
+          "startup": "16",
+          "totalFrames": "51",
+          "damage": "400, 400, 500 (1300, 500)",
+          "attackType": "High",
+          "notes": "Projectile invincible frames 13--31. Anti-air invincible frames 6--17. Psycho Mine data in parenthesis. Detonates Psycho Mines on hit/block.",
+          "onHit": "Knockdown +35... (Limited Juggle/OTG +82)",
+          "onBlock": "-3... (+10)",
+          "activeFrames": "16",
+          "recovery": "20",
+          "inputSequence": "Back Charge, Forward + PP"
+        },
+        {
+          "name": "Double Knee Press (Light Kick)",
+          "startup": "13",
+          "totalFrames": "37 (42 on whiff)",
+          "damage": "300, 500",
+          "attackType": "High",
+          "onHit": "+2",
+          "onBlock": "-5",
+          "activeFrames": "2, 2",
+          "recovery": "20 (25 on whiff)",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Double Knee Press (Medium Kick)",
+          "startup": "17",
+          "totalFrames": "41 (46 on whiff)",
+          "damage": "300, 600",
+          "attackType": "High",
+          "onHit": "+3",
+          "onBlock": "-5",
+          "activeFrames": "2, 2",
+          "recovery": "20 (25 on whiff)",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Double Knee Press (Heavy Kick)",
+          "startup": "17",
+          "totalFrames": "46 (51 on whiff)",
+          "damage": "500, 700",
+          "attackType": "High",
+          "onHit": "+3",
+          "onBlock": "-4",
+          "activeFrames": "2, 2",
+          "recovery": "20 (25 on whiff)",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Double Knee Press (Overdrive)",
+          "startup": "17",
+          "totalFrames": "69",
+          "damage": "250, 250, 300",
+          "attackType": "High",
+          "notes": "Limited juggle state on hit. As of December 2024 patch: 20% combo scaling.",
+          "onHit": "+55",
+          "onBlock": "-15",
+          "activeFrames": "2, 2, 3",
+          "recovery": "28",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Backfist Combo (Light Punch)",
+          "startup": "13",
+          "totalFrames": "54",
+          "damage": "300, 400 (300, 500, 500)",
+          "attackType": "High",
+          "notes": "Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis. June 2025 patch: on-hit knockdown from +24 to +21.",
+          "onHit": "Knockdown +21 (Knockdown +42)",
+          "onBlock": "-14 (+6)",
+          "activeFrames": "2, 5",
+          "recovery": "25",
+          "inputSequence": "Down, Down-Back, Back + Light Punch"
+        },
+        {
+          "name": "Backfist Combo (Medium Punch)",
+          "startup": "17",
+          "totalFrames": "59",
+          "damage": "300, 500 (300, 600, 500)",
+          "attackType": "High",
+          "notes": "Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis. June 2025 patch: on-hit knockdown from +23 to +20.",
+          "onHit": "Knockdown +20 (Knockdown +42)",
+          "onBlock": "-14 (+6)",
+          "activeFrames": "2, 5",
+          "recovery": "26",
+          "inputSequence": "Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Backfist Combo (Heavy Punch)",
+          "startup": "22",
+          "totalFrames": "65",
+          "damage": "300, 600 (300, 700, 500)",
+          "attackType": "High",
+          "notes": "Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis.",
+          "onHit": "Knockdown +31 (Knockdown +49)",
+          "onBlock": "-14 (+6)",
+          "activeFrames": "3, 5",
+          "recovery": "26",
+          "inputSequence": "Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Backfist Combo (Overdrive)",
+          "startup": "14",
+          "totalFrames": "107",
+          "damage": "400, 400, 400 (400, 500, 400, 400)",
+          "attackType": "High",
+          "notes": "Plants a Psycho Mine on hit. Detonates Psycho Mines on hit/block. Psycho Mine data in parenthesis.",
+          "onHit": "Knockdown +24 (Knockdown +48)",
+          "onBlock": "-25 (+6)",
+          "activeFrames": "3, 5",
+          "recovery": "26",
+          "inputSequence": "Down, Down-Back, Back + PP"
+        },
+        {
+          "name": "Shadow Rise",
+          "startup": "18...46 (16...42)",
+          "totalFrames": "53 (55)",
+          "notes": "Airborn from frame 9 onward. Strength of Kick used changes M. Bison's jump distance. Can follow up with Punch (Devil Reverse) or Kick (Head Press). Overdrive version data in parenthesis. OD version tracks the opponent / changes distances automatically based on their position. OD version is invincible to throws on frames 1-8.",
+          "inputSequence": "Down Charge, Up + Kick"
+        },
+        {
+          "name": "Head Press",
+          "startup": "15",
+          "totalFrames": "70... (75 on block)",
+          "damage": "Overhead",
+          "notes": "Can follow up with Punch on block/hit for Somersault Skull Diver. Can steer Bison after connectiong on hit/block by holding forward/back.",
+          "onHit": "-28...-23",
+          "onBlock": "-39...-33",
+          "activeFrames": "6...land",
+          "recovery": "26 on land",
+          "inputSequence": "During Shadow Rise > Kick"
+        },
+        {
+          "name": "Head Press (Overdirve)",
+          "startup": "15",
+          "totalFrames": "32",
+          "damage": "1600, 400",
+          "attackType": "Overhead",
+          "notes": "Can perform the OD version of Head Press from the standard version of Shadow Rise by using KK. Cannot use Sommersault Skull Diver followup from OD Head Press on hit/block.",
+          "onHit": "Knockdown +27",
+          "onBlock": "+5...+7",
+          "activeFrames": "4...land",
+          "recovery": "12 on land",
+          "inputSequence": "During OD Shadow Rise > Kick (or KK during normal Shadow Rise)"
+        },
+        {
+          "name": "Sommersault Skull Diver",
+          "startup": "12",
+          "totalFrames": "22...",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Usable after a normal Head Press on hit/block. Not usable after OD Head Press. Can steer forward/back after activation until landing.",
+          "onHit": "+9...+15",
+          "onBlock": "+3...+10",
+          "activeFrames": "12...21",
+          "recovery": "9...landing",
+          "inputSequence": "After Head Press > Punch"
+        },
+        {
+          "name": "Devil Reverse",
+          "startup": "16",
+          "totalFrames": "46",
+          "damage": "800 (800, 700, 500)",
+          "attackType": "Overhead",
+          "notes": "Can steer Bison after activation by holding forward/back. Holding back only makes Bison move backwards a tiny bit, but holding forward grants significant forward movement. Detonates Psycho Mine on hit/block. Psycho Mine data in parenthesis. As of December 2024 patch: increased hurtbox, but increased on-hit and on-block by +1(+1) frames.",
+          "onHit": "Knockdown +39... (Knockdown +53...)",
+          "onBlock": "+5 (+22)",
+          "activeFrames": "21...land",
+          "recovery": "10 on land",
+          "inputSequence": "During Shadow Rise > Punch"
+        },
+        {
+          "name": "Devil Reverse (Overdrive)",
+          "startup": "21",
+          "totalFrames": "63",
+          "damage": "700, 700 (700, 700, 700, 500)",
+          "attackType": "Overhead",
+          "notes": "Can steer Bison after activation by holding forward/back. Holding back only makes Bison move backwards a tiny bit, but holding forward grants significant forward movement. Detonates Psycho Mine on hit/block. Psycho Mine data in parenthesis.",
+          "onHit": "Knockdown +35... (Knockdown +51...)",
+          "onBlock": "+4...+9 (+24)",
+          "activeFrames": "13...land",
+          "recovery": "10 on land",
+          "inputSequence": "During Shadow Rise > PP"
+        },
+        {
+          "name": "Psycho Mine",
+          "notes": "If detonating from an expired timer, deals 500 damage and creates a free juggle state."
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Knee Press Nightmare (Level 1)",
+          "startup": "10",
+          "damage": "2000",
+          "attackType": "High",
+          "notes": "Strike/throw invincible on frames 1-11. Breaks armor.",
+          "onHit": "Knockdown +11",
+          "onBlock": "-41",
+          "activeFrames": "42",
+          "recovery": "62",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + Kick"
+        },
+        {
+          "name": "Psycho Punisher (Level 2)",
+          "startup": "26",
+          "damage": "3000",
+          "attackType": "High",
+          "notes": "Fully invincible frames 1-26. Breaks armor.",
+          "onHit": "Knockdown +23",
+          "onBlock": "-34",
+          "activeFrames": "7",
+          "recovery": "52",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + Kick"
+        },
+        {
+          "name": "Unlimited Psycho Crusher (Level 3)",
+          "startup": "10",
+          "damage": "4000 (4500)",
+          "attackType": "High",
+          "notes": "Fully invincible frames 1-15. Breaks armor. Critical Art in parenthesis.",
+          "onHit": "Knockdown +15",
+          "onBlock": "-46",
+          "activeFrames": "5",
+          "recovery": "65",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + Punch"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 129 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+21",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 153 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+18",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}

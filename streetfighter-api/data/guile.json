@@ -1,0 +1,608 @@
+{
+  "character": "guile",
+  "url": "https://ultimateframedata.com/sf6/guile",
+  "scrapedAt": "2025-10-16T22:23:33.136Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "5",
+          "totalFrames": "14",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "7"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "7",
+          "totalFrames": "24",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+6",
+          "onBlock": "0",
+          "activeFrames": "3",
+          "recovery": "15"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "7",
+          "totalFrames": "32",
+          "damage": "900",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "20% damage scaling to followup combo hits.",
+          "onHit": "-1",
+          "onBlock": "-6",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "5",
+          "totalFrames": "18",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "12"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "7",
+          "totalFrames": "29",
+          "damage": "700",
+          "attackType": "High",
+          "onHit": "+1",
+          "onBlock": "-4",
+          "activeFrames": "5",
+          "recovery": "18"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "13",
+          "totalFrames": "36",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Super",
+          "notes": "June 2025 patch: initial scaling of 20%.",
+          "onHit": "+4",
+          "onBlock": "-4",
+          "activeFrames": "3",
+          "recovery": "21"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "14",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+5",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "8"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "6",
+          "totalFrames": "21 (24 on whiff)",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "13 (16 on whiff)"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "9",
+          "totalFrames": "33",
+          "damage": "900",
+          "attackType": "High",
+          "onHit": "0",
+          "onBlock": "-9",
+          "activeFrames": "5",
+          "recovery": "20"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "18",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "notes": "June 2025 patch: recovery from 13 to 12, on block from -5 to -3.",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "2",
+          "recovery": "12"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "8",
+          "totalFrames": "28",
+          "damage": "500",
+          "attackType": "Low",
+          "cancellable": "Target Combo",
+          "notes": "10% damage scaling to followup combo hits.",
+          "onHit": "+4",
+          "onBlock": "-4",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "9, 27",
+          "totalFrames": "50",
+          "damage": "450, 450",
+          "attackType": "Low",
+          "cancellable": "Target Combo",
+          "onHit": "Knockdown +34",
+          "onBlock": "-12",
+          "activeFrames": "2, 3",
+          "recovery": "21"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Back + Light Kick",
+          "startup": "8",
+          "totalFrames": "27",
+          "damage": "500",
+          "attackType": "High",
+          "onHit": "0...",
+          "onBlock": "-4...",
+          "activeFrames": "5",
+          "recovery": "15"
+        },
+        {
+          "name": "Forward + Medium Punch",
+          "startup": "20",
+          "totalFrames": "41",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+2",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "19"
+        },
+        {
+          "name": "Forward/Back + Medium Kick",
+          "startup": "11 (11)",
+          "totalFrames": "34 (31)",
+          "damage": "700",
+          "attackType": "High",
+          "notes": "Forward first, Back in parenthesis.",
+          "onHit": "+3 (+3)",
+          "onBlock": "-6 (-6)",
+          "activeFrames": "3",
+          "recovery": "21 (18)"
+        },
+        {
+          "name": "Forward + Heavy Punch",
+          "startup": "16",
+          "totalFrames": "38",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Whiffs on crouching opponents.",
+          "onHit": "+5",
+          "onBlock": "+3",
+          "activeFrames": "3",
+          "recovery": "20"
+        },
+        {
+          "name": "Back + Heavy Punch",
+          "startup": "9",
+          "totalFrames": "32",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+1",
+          "onBlock": "-4",
+          "activeFrames": "3",
+          "recovery": "21"
+        },
+        {
+          "name": "Forward + Heavy Kick",
+          "startup": "17",
+          "totalFrames": "45",
+          "damage": "1000",
+          "attackType": "High",
+          "notes": "Knockdown +29 on Counter Hit. Crumple +55 on Punish Counter Hit. Anti-air counter-hit causes a knockdown juggle state as of May 2024 patch.",
+          "onHit": "-1",
+          "onBlock": "-8",
+          "activeFrames": "3",
+          "recovery": "26"
+        },
+        {
+          "name": "Guile High Kick (Down-Forward + Heavy Kick)",
+          "startup": "10",
+          "totalFrames": "35",
+          "damage": "1000",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "June 2025 patch: increased juggle height and hit stun on punish counter.",
+          "onHit": "0",
+          "onBlock": "-9",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Medium Punch, Back + Heavy Punch",
+          "startup": "7, 16",
+          "totalFrames": "24, 44",
+          "damage": "600, 600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+6, Knockdown +35",
+          "onBlock": "0, -9",
+          "activeFrames": "3, 3",
+          "recovery": "15, 26"
+        },
+        {
+          "name": "Down + Medium Punch, Down + Medium Punch",
+          "startup": "6, 12",
+          "totalFrames": "21, 30",
+          "damage": "600, 600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+4, Knockdown +44",
+          "onBlock": "-2, -6",
+          "activeFrames": "3, 3",
+          "recovery": "13, 16"
+        },
+        {
+          "name": "Down + Medium Kick, Forward + Medium Punch",
+          "startup": "8, 20",
+          "totalFrames": "28, 43",
+          "damage": "500, 800",
+          "attackType": "Low, High",
+          "notes": "Second hit scales to 80% (640).",
+          "onHit": "+4, +1",
+          "onBlock": "-5, -5",
+          "activeFrames": "3, 3",
+          "recovery": "18, 21"
+        },
+        {
+          "name": "Down + Heavy Kick, Down-Forward + Heavy Kick",
+          "startup": "9, 10",
+          "totalFrames": "50, 37",
+          "damage": "450, 600",
+          "attackType": "Low, High",
+          "cancellable": "Special, Super",
+          "notes": "Second hit only combos if first hit is Punish Counter (which causes Juggle State). Second hit scales to 80% (480).",
+          "onHit": "--, Knockdown +34",
+          "onBlock": "--, -10",
+          "activeFrames": "2, 3",
+          "recovery": "25"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "4",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+5...",
+          "onBlock": "+1...",
+          "activeFrames": "10",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "7",
+          "damage": "700",
+          "attackType": "Overhead",
+          "notes": "Juggle state on air hit.",
+          "onHit": "+10...",
+          "onBlock": "+6...",
+          "activeFrames": "3",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "9",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+4...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "6",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+4...",
+          "onBlock": "+0...",
+          "activeFrames": "10",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "7",
+          "damage": "600",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+5...",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+10...",
+          "onBlock": "+6...",
+          "activeFrames": "5",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Sonic Boom",
+          "startup": "10",
+          "totalFrames": "40",
+          "damage": "550 (600)",
+          "attackType": "High",
+          "notes": "Perfect in Parenthesis. Strength of the Punch only changes the Sonic Boom's travel speed, does not change advantage or damage.",
+          "onHit": "+3... (+4...)",
+          "onBlock": "-3... (-3...)",
+          "recovery": "30",
+          "inputSequence": "Back Charge, Forward + P"
+        },
+        {
+          "name": "Sonic Boom (Overdrive)",
+          "startup": "10",
+          "totalFrames": "38",
+          "damage": "500, 500",
+          "attackType": "High",
+          "onHit": "Variable Knockdown of +48 minimum",
+          "onBlock": "+3",
+          "recovery": "30",
+          "inputSequence": "Back Charge, Forward + PP"
+        },
+        {
+          "name": "Flash Kick (Light Kick)",
+          "startup": "5",
+          "totalFrames": "51",
+          "damage": "1000 (1200)",
+          "attackType": "High",
+          "notes": "Perfect in parenthesis. Anti-air invincible on frames 1-7.",
+          "onHit": "Knockdown +36...",
+          "onBlock": "-30",
+          "activeFrames": "6",
+          "recovery": "41",
+          "inputSequence": "Down Charge, Up + Light Kick"
+        },
+        {
+          "name": "Flash Kick (Medium Kick)",
+          "startup": "6",
+          "totalFrames": "53",
+          "damage": "1100 (1300)",
+          "attackType": "High",
+          "notes": "Perfect in parenthesis. Anti-air invincible on frames 1-8.",
+          "onHit": "Knockdown +37...",
+          "onBlock": "-31",
+          "activeFrames": "6",
+          "recovery": "42",
+          "inputSequence": "Down Charge, Up + Medium Kick"
+        },
+        {
+          "name": "Flash Kick (Heavy Kick)",
+          "startup": "7",
+          "totalFrames": "55",
+          "damage": "1200 (1400)",
+          "attackType": "High",
+          "notes": "Perfect in parenthesis. Anti-air invincible on frames 1-9.",
+          "onHit": "Knockdown +37...",
+          "onBlock": "-31",
+          "activeFrames": "6",
+          "recovery": "42",
+          "inputSequence": "Down Charge, Up + Heavy Kick"
+        },
+        {
+          "name": "Flash Kick (Overdrive)",
+          "startup": "6",
+          "totalFrames": "55",
+          "damage": "1000, 600",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-11.",
+          "onHit": "Knockdown +29...",
+          "onBlock": "-33",
+          "activeFrames": "6",
+          "recovery": "46",
+          "inputSequence": "Down Charge, Up + KK"
+        },
+        {
+          "name": "Sonic Blade (Light Punch)",
+          "startup": "16",
+          "totalFrames": "42",
+          "damage": "400",
+          "attackType": "High",
+          "notes": "Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.",
+          "onHit": "-3",
+          "onBlock": "-4",
+          "activeFrames": "...27",
+          "recovery": "26",
+          "inputSequence": "Down, Down-Back, Back + Light Punch"
+        },
+        {
+          "name": "Sonic Blade (Medium Punch)",
+          "startup": "21",
+          "totalFrames": "50",
+          "damage": "400",
+          "attackType": "High",
+          "notes": "Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.",
+          "onHit": "-6",
+          "onBlock": "-7",
+          "activeFrames": "...30",
+          "recovery": "29",
+          "inputSequence": "Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Sonic Blade (Heavy Punch)",
+          "startup": "31",
+          "totalFrames": "54",
+          "damage": "250, 250",
+          "attackType": "High",
+          "notes": "Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.",
+          "onHit": "+1",
+          "onBlock": "-1",
+          "activeFrames": "...24",
+          "recovery": "19",
+          "inputSequence": "Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Sonic Blade (Overdrive)",
+          "startup": "15",
+          "totalFrames": "39",
+          "damage": "300",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. Can cancel into Sonic Boom with Foward + Punch, no charge required. If the Sonic Boom touches the Sonic Blade, a Sonic Cross is created.",
+          "onHit": "Knockdown +54...",
+          "onBlock": "-4",
+          "activeFrames": "...21",
+          "inputSequence": "Down, Down-Back, Back + PP"
+        },
+        {
+          "name": "Sonic Cross",
+          "startup": "10",
+          "totalFrames": "**",
+          "damage": "600, 400 (400, 400, 500)",
+          "attackType": "High",
+          "notes": "Punch strength only changes the travel speed, not the damage or advantage. Overdrive in parenthesis.",
+          "onHit": "Knockdown +**...",
+          "onBlock": "**",
+          "inputSequence": "Sonic Blade > Forward + Punch (PP)"
+        },
+        {
+          "name": "Sonic Break",
+          "startup": "11",
+          "totalFrames": "**",
+          "damage": "600 (1000)",
+          "attackType": "High",
+          "notes": "For the chargeless PP version, there is no difference in travel speed based on punch used. For the P followup to Sonic Boom, the travel speed does change based on the punch used. Overdrive Sonic Boom followup does 1000 damage.",
+          "onHit": "+2",
+          "onBlock": "-2",
+          "recovery": "25",
+          "inputSequence": "During Solid Puncher: PP (chargeless) or P (after Sonic Boom)"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Sonic Hurricane (Level 1)",
+          "startup": "8 (7)",
+          "damage": "2000 (1800)",
+          "attackType": "High",
+          "notes": "Strike/throw invincible on frames 1-10 (Light and Medium versions only!). Breaks armor. Hard punch has no invincibility, angles the projectile upward, data in parenthesis.",
+          "onHit": "Knockdown +41 (Knockdown +70)",
+          "onBlock": "-26 (-2)",
+          "recovery": "81 (68)",
+          "inputSequence": "Back Charge, Forward, Back, Forward + P"
+        },
+        {
+          "name": "Solid Puncher (Level 2)",
+          "startup": "6",
+          "notes": "Enables Sonic Break. 25 second timer.",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + P"
+        },
+        {
+          "name": "Crossfire Somersault (Level 3)",
+          "startup": "9",
+          "damage": "4000 (4500)",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-14. Breaks armor. Critical Art in parenthesis.",
+          "onHit": "Knockdown +16 (Knockdown +16)",
+          "onBlock": "-59",
+          "activeFrames": "6",
+          "recovery": "70",
+          "inputSequence": "Back Charge, Forward, Back, Forward + K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 139 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+15",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 99 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+18",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Forward Air Throw",
+          "startup": "5",
+          "totalFrames": "**",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "**",
+          "activeFrames": "3"
+        },
+        {
+          "name": "Back Air Throw",
+          "startup": "5",
+          "totalFrames": "**",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "**",
+          "activeFrames": "3"
+        }
+      ]
+    }
+  ]
+}

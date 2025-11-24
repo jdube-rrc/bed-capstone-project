@@ -1,0 +1,593 @@
+{
+  "character": "jp",
+  "url": "https://ultimateframedata.com/sf6/jp",
+  "scrapedAt": "2025-10-16T22:23:52.253Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "6",
+          "totalFrames": "18",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "10"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "12",
+          "totalFrames": "35",
+          "damage": "700",
+          "attackType": "High",
+          "onHit": "+1",
+          "onBlock": "-6",
+          "activeFrames": "3",
+          "recovery": "21"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "12",
+          "totalFrames": "35",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "In February 27, 2024 patch: hurtbox size increased and 1 frame of strike invincibility hurtbox added on frame 11 (this was listed incorrectly as an Anti-air invuln hurtbox on UFD and corrected with the June 2025 patch).",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "2",
+          "recovery": "22"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "5",
+          "totalFrames": "18",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "11"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "8",
+          "totalFrames": "29",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "19"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "12",
+          "totalFrames": "32",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "notes": "Anti-air invincibility on frames 12-16.",
+          "onHit": "+7",
+          "onBlock": "+2",
+          "activeFrames": "4",
+          "recovery": "17"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "16",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "11"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "7",
+          "totalFrames": "24",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+6",
+          "onBlock": "-2",
+          "activeFrames": "4",
+          "recovery": "14"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "9",
+          "totalFrames": "34",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 10-14 as of October 2024 patch.",
+          "onHit": "+1",
+          "onBlock": "-6",
+          "activeFrames": "6",
+          "recovery": "20"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "6",
+          "totalFrames": "17",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+2",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "10"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "9",
+          "totalFrames": "28",
+          "damage": "700",
+          "attackType": "Low",
+          "notes": "As of June 2025 patch: 20% initial scaling.",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "17"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "10",
+          "totalFrames": "33",
+          "damage": "900",
+          "attackType": "Low",
+          "onHit": "Knockdown +27",
+          "onBlock": "-6",
+          "activeFrames": "3",
+          "recovery": "21"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Back + Medium Punch",
+          "startup": "8",
+          "totalFrames": "26",
+          "damage": "500",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "16"
+        },
+        {
+          "name": "Forward + Medium Kick (Guillotinna)",
+          "startup": "22",
+          "totalFrames": "42",
+          "damage": "700",
+          "attackType": "Overhead",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "2",
+          "recovery": "19"
+        },
+        {
+          "name": "Down-Forward + Heavy Punch (Malice)",
+          "startup": "16",
+          "totalFrames": "49",
+          "damage": "900",
+          "attackType": "Low",
+          "onHit": "Knockdown +17",
+          "onBlock": "-14",
+          "activeFrames": "3",
+          "recovery": "31"
+        },
+        {
+          "name": "Forward + Heavy Kick (Bylina)",
+          "startup": "11",
+          "totalFrames": "40",
+          "damage": "300, 600",
+          "attackType": "High",
+          "cancellable": "Second Hit: Special, Super",
+          "notes": "Limited Juggle State on hit.",
+          "onHit": "Knockdown +38",
+          "onBlock": "-5",
+          "activeFrames": "6",
+          "recovery": "24"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Back + Medium Punch, Medium Punch (Grom Strelka)",
+          "startup": "8, 10",
+          "totalFrames": "26, 32",
+          "damage": "500, 500",
+          "attackType": "High, High",
+          "cancellable": "Special, Super",
+          "onHit": "+5, +3",
+          "onBlock": "-1, -6",
+          "activeFrames": "3, 3",
+          "recovery": "16, 20"
+        },
+        {
+          "name": "Heavy Kick, Heavy Punch (Zilant)",
+          "startup": "12, 20",
+          "totalFrames": "32, 42",
+          "damage": "800, 500",
+          "attackType": "High, High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+7, +3",
+          "onBlock": "+2, -3",
+          "activeFrames": "4, 3",
+          "recovery": "17, 20"
+        },
+        {
+          "name": "Heavy Kick, Heavy Punch, Heavy Punch (Zilant Mid)",
+          "startup": "12, 20, 21",
+          "totalFrames": "32, 42, 45",
+          "damage": "800, 500, 1000",
+          "attackType": "High, High, Overhead",
+          "notes": "Third hit does not combo but hits overhead.",
+          "onHit": "+7, +3, +3",
+          "onBlock": "+2, -3, -4",
+          "activeFrames": "4, 3, 4",
+          "recovery": "17, 20, 22"
+        },
+        {
+          "name": "Heavy Kick, Heavy Punch, Heavy Kick (Zilant Low)",
+          "startup": "12, 20, 21",
+          "totalFrames": "32, 42, 45",
+          "damage": "800, 500, 1000",
+          "attackType": "High, High, Low",
+          "notes": "Third hit does not combo but hits low.",
+          "onHit": "+7, +3, +3",
+          "onBlock": "+2, -3, -4",
+          "activeFrames": "4, 3, 3",
+          "recovery": "17, 20, 22"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+8...",
+          "onBlock": "+4...",
+          "activeFrames": "10",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "12",
+          "damage": "700",
+          "attackType": "Overhead",
+          "notes": "Whiffs on crouching opponents.",
+          "onHit": "+12...",
+          "onBlock": "+8...",
+          "activeFrames": "5",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "9",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Forced Knockdown on air counter-hit.",
+          "onHit": "+9",
+          "onBlock": "+5",
+          "activeFrames": "5",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "6",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+4...",
+          "onBlock": "+1...",
+          "activeFrames": "8",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "7",
+          "damage": "600",
+          "attackType": "Overhead",
+          "onHit": "+9",
+          "onBlock": "+5",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "11",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+9",
+          "onBlock": "+5",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Triglav",
+          "startup": "22",
+          "totalFrames": "55",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. Strength of the Punch only changes the distance.",
+          "onHit": "Knockdown +44",
+          "onBlock": "-2",
+          "activeFrames": "10",
+          "recovery": "24 (33)",
+          "inputSequence": "Down, Down + P"
+        },
+        {
+          "name": "Triglav (Overdrive)",
+          "startup": "20",
+          "totalFrames": "53",
+          "damage": "500, 500",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. Strength of the Punches only changes the distance (LP+MP is shortest, then LP+HP is middle, then MP+HP is longest). 20% damage scaling to followup combo hits as of May 2024 patch.",
+          "onHit": "Knockdown +53",
+          "onBlock": "+3",
+          "activeFrames": "20",
+          "recovery": "14 (22)",
+          "inputSequence": "Down, Down + PP"
+        },
+        {
+          "name": "Stribog (Light Punch)",
+          "startup": "16",
+          "totalFrames": "49",
+          "damage": "300, 700",
+          "attackType": "High",
+          "notes": "First Hit is a strike, second hit is a projectile.",
+          "onHit": "Knockdown +38",
+          "onBlock": "-10",
+          "activeFrames": "3, 3",
+          "recovery": "28 (30)",
+          "inputSequence": "Down, Down-Forward, Forward + Light Punch"
+        },
+        {
+          "name": "Stribog (Medium Punch)",
+          "startup": "20",
+          "totalFrames": "53",
+          "damage": "400, 800",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. First Hit is a strike, second hit is a projectile.",
+          "onHit": "Knockdown +42",
+          "onBlock": "-8",
+          "activeFrames": "3, 3",
+          "recovery": "27 (29)",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Punch"
+        },
+        {
+          "name": "Stribog (Heavy Punch)",
+          "startup": "28",
+          "totalFrames": "61",
+          "damage": "300, 500",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. First Hit is a strike, second hit is a projectile.",
+          "onHit": "Knockdown +86",
+          "onBlock": "+4",
+          "activeFrames": "3, 3",
+          "recovery": "19 (21)",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Punch"
+        },
+        {
+          "name": "Stribog (Overdrive)",
+          "startup": "19",
+          "totalFrames": "52",
+          "damage": "600, 800",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. Wall Bounce on hit. First Hit is a strike, second hit is a projectile.",
+          "onHit": "Knockdown +69...",
+          "onBlock": "+2",
+          "activeFrames": "3, 3",
+          "recovery": "22 (24)",
+          "inputSequence": "Down, Down-Forward, Forward + PP"
+        },
+        {
+          "name": "Departure",
+          "startup": "**",
+          "totalFrames": "50 (40)",
+          "damage": "800 (500, 500)",
+          "attackType": "High",
+          "notes": "Full Juggle State on hit. Punch Strength determines the location of the portal. JP recovers before the attack comes out, so Knockdown and On-Block data are relative to other actions. Overdrive data in parenthesis. Overdrive can use LP+MP for shortest, LP+HP is middle, and MP+HP is longest. In February 27, 2024 patch: 20% damage scaling to followup combo hits.",
+          "onHit": "Knockdown \"+80\" (Knockdown \"+113\")",
+          "onBlock": "\"+31\" (\"+60\")",
+          "inputSequence": "Down, Down-Back, Back + P"
+        },
+        {
+          "name": "Departure > Window",
+          "startup": "5",
+          "totalFrames": "44",
+          "notes": "Teleports JP to an active Departure Portal. Invincible on frames 6-20. Can do any Jump attack out of the Teleport.",
+          "recovery": "19",
+          "inputSequence": "Departure > Down, Down-Back, Back + Light Punch (or Medium Punch)"
+        },
+        {
+          "name": "Departure > Shadow",
+          "startup": "20",
+          "totalFrames": "40",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Manually triggers Departure's followup attack early. Full Juggle State on hit.",
+          "onHit": "Knockdown \"+80\" (Knockdown \"+113\")",
+          "onBlock": "\"+31\" (\"+60\")",
+          "recovery": "21",
+          "inputSequence": "Departure > Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Amnesia",
+          "startup": "3 (1)",
+          "totalFrames": "55 (55)",
+          "damage": "800 (600, 600)",
+          "attackType": "Parry",
+          "notes": "Counters Strike attacks (not throws or projectiles) from frame 3-18. Overdrive version counters Strikes and Throws, on frames 1-20. Overdrive data in parenthesis. For both versions, JP recovers before the hit, so On-Hit and On-block data are relative to other actions. Free Juggle State on hit. 17 frames of recovery on successful parry. In February 27, 2024 patch: now adds 50% damage scaling to 3rd hit when starting a combo or adds 60% damage scaling when comboed into. This was previously shown with Anti-air invuln in the hitbox GIF, but is actually fully strike invuln and has been corrected as of the June 2025 patch.",
+          "onHit": "Knockdown \"+88\" (Knockdown \"+131\")",
+          "onBlock": "\"+28\" (\"+28, +28\")",
+          "activeFrames": "18 (20)",
+          "recovery": "35 (35) / 17 (17)",
+          "inputSequence": "Down, Down + K"
+        },
+        {
+          "name": "Torbalan (Light Kick)",
+          "startup": "(13...)+9",
+          "totalFrames": "50 (34 on feint)",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. Hold attack button to feint. Hitbox activates on frame 9 once the ghost gets close enough to the opponent, 22 frames at point blank.",
+          "onHit": "Knockdown +42...",
+          "onBlock": "-6...",
+          "activeFrames": "1",
+          "recovery": "28",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Torbalan (Medium Kick)",
+          "startup": "(13...)+13",
+          "totalFrames": "50 (34 on feint)",
+          "damage": "1000",
+          "attackType": "Overhead",
+          "notes": "Hold attack button to feint. Hitbox activates on frame 13 once the ghost gets close enough to the opponent, 26 frames at point blank. Initial scaling of 20%.",
+          "onHit": "+6...+27",
+          "onBlock": "-8...+13",
+          "activeFrames": "1",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Torbalan (Heavy Kick)",
+          "startup": "(13...)+13",
+          "totalFrames": "50 (34 on feint)",
+          "damage": "1000",
+          "attackType": "Low",
+          "notes": "Hold attack button to feint. Hitbox activates on frame 13 once the ghost gets close enough to the opponent, 26 frames at point blank. Initial scaling of 20%.",
+          "onHit": "+6...+27",
+          "onBlock": "-8...+13",
+          "activeFrames": "1",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Torbalan (Overdrive)",
+          "startup": "(13...)+9, 25",
+          "totalFrames": "50",
+          "damage": "400, 400",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. Hitbox activates on frame 9 once the ghost gets close enough to the opponent, 22 frames at point blank. 20% damage scaling to followup combo hits as of May 2024 patch.",
+          "onHit": "Knockdown +65...",
+          "onBlock": "+24",
+          "activeFrames": "1, 1",
+          "recovery": "3",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Embrace",
+          "startup": "(25...)+1",
+          "totalFrames": "72 (Hit: 182...)",
+          "damage": "1800 (Overdrive: 2600)",
+          "attackType": "Throw",
+          "notes": "Cannot be used if a Departure portal is active. Considered a projectile until the grab activates. 10% damage scaling to followup combo hits as of October 2024 patch.",
+          "onHit": "Knockdown +18",
+          "activeFrames": "1",
+          "recovery": "44",
+          "inputSequence": "Down, Down-Back, Back + K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Chornobog (Level 1)",
+          "startup": "7, 15",
+          "damage": "2000",
+          "attackType": "High",
+          "notes": "Strike/Throw invincible on frames 1-10. Breaks armor.",
+          "onHit": "Knockdown +22...+32",
+          "onBlock": "-33...-23",
+          "recovery": "62...52",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        },
+        {
+          "name": "Lovushka (Level 2)",
+          "startup": "13",
+          "damage": "500, 500, 500, 500",
+          "attackType": "High, Overhead, Low, Overhead",
+          "notes": "Breaks armor. Cannot use Torvalan or Embrace while active. Deactivates if JP is hit.",
+          "onHit": "**",
+          "onBlock": "**",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + P"
+        },
+        {
+          "name": "Interdiction (Level 3)",
+          "startup": "18",
+          "damage": "4000 (4500)",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-23. Breaks armor. Critical Art in parenthesis.",
+          "onHit": "Knockdown +23 (Knockdown +23)",
+          "onBlock": "-50",
+          "activeFrames": "6",
+          "recovery": "62",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 119 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+24",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 114 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+36",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}

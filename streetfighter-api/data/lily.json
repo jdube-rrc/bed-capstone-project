@@ -1,0 +1,570 @@
+{
+  "character": "lily",
+  "url": "https://ultimateframedata.com/sf6/lily",
+  "scrapedAt": "2025-10-16T22:23:55.712Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "5",
+          "totalFrames": "15",
+          "damage": "350",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+6",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "8"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "9",
+          "totalFrames": "29",
+          "damage": "800",
+          "attackType": "High",
+          "onHit": "+1",
+          "onBlock": "-4",
+          "activeFrames": "4",
+          "recovery": "17"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "11",
+          "totalFrames": "35",
+          "damage": "900",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Crumple +84 on Punish Counter.",
+          "onHit": "0",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "22"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "4",
+          "totalFrames": "18",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "8"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "7",
+          "totalFrames": "24",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+2",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "15"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "14",
+          "totalFrames": "38",
+          "damage": "1000",
+          "attackType": "High",
+          "notes": "Knockdown +47 on Punish Counter.",
+          "onHit": "+1",
+          "onBlock": "-5",
+          "activeFrames": "4",
+          "recovery": "21"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "6",
+          "totalFrames": "16",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "notes": "+6 on hit as of December 2024 patch.",
+          "onHit": "+6",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "8"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "8",
+          "totalFrames": "28",
+          "damage": "700",
+          "attackType": "High",
+          "cancellable": "Super",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "10",
+          "totalFrames": "37",
+          "damage": "500, 500",
+          "attackType": "High",
+          "cancellable": "Second Hit: Special, Super",
+          "notes": "First hit whiffs if not close. 6 frames on whiff but 7 frames on hit? Something goofy about the way the two hits work, they aren't really two hits...",
+          "onHit": "0",
+          "onBlock": "-2",
+          "activeFrames": "6",
+          "recovery": "22"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "18",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+2",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "12"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "9",
+          "totalFrames": "29",
+          "damage": "500",
+          "attackType": "Low",
+          "cancellable": "Special, Super",
+          "onHit": "+1",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "11, 19",
+          "totalFrames": "44",
+          "damage": "450, 450",
+          "attackType": "Low, Low(High on block)",
+          "notes": "On block, the second hit changes to a high attack as of May 2024 patch.",
+          "onHit": "Knockdown +32",
+          "onBlock": "-12",
+          "activeFrames": "2, 2",
+          "recovery": "24"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Down-Forward + Heavy Punch (Ridge Thrust)",
+          "startup": "25",
+          "totalFrames": "45",
+          "damage": "900",
+          "attackType": "Overhead",
+          "onHit": "+2",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Back + Heavy Punch (Horn Breaker)",
+          "startup": "14",
+          "totalFrames": "35",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "June 2025 patch: the expanded hurtbox that was on the last 3 frames now remains until the very end of the recovery frames.",
+          "onHit": "+5",
+          "onBlock": "-2",
+          "activeFrames": "4",
+          "recovery": "18"
+        },
+        {
+          "name": "Forward + Heavy Punch",
+          "startup": "16",
+          "totalFrames": "43",
+          "damage": "900",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "notes": "+2 on hit as of December 2024 patch. June 2025 patch: startup changed from 18 frames to 16 frames, first hit hitbox size increased upward, on-block from -5 to -4.",
+          "onHit": "+2",
+          "onBlock": "-4",
+          "activeFrames": "2",
+          "recovery": "24"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Desert Storm (Forward + Heavy Punch, Heavy Punch, Heavy Punch)",
+          "startup": "16, 20, 20",
+          "totalFrames": "43, 48, 64",
+          "damage": "900, 500, 500",
+          "attackType": "High",
+          "notes": "Third hit always scales to 80% (400).",
+          "onHit": "+2, 0, Knockdown +26",
+          "onBlock": "-4, -9, -23",
+          "activeFrames": "2, 2, 5",
+          "recovery": "24, 27, 39"
+        },
+        {
+          "name": "Jump Medium Punch, Jump Medium Punch",
+          "startup": "9, 10",
+          "damage": "700, 700",
+          "attackType": "Overhead",
+          "cancellable": "Super",
+          "notes": "Limited Juggle State on air hit.",
+          "onHit": "+7..., --",
+          "onBlock": "+3..., --",
+          "activeFrames": "4, 3",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+6...",
+          "onBlock": "+2...",
+          "activeFrames": "9",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "9",
+          "damage": "700",
+          "attackType": "Overhead",
+          "cancellable": "Special",
+          "notes": "Limited Juggle State on air hit. Can cancel into Special Moves as of June 2025 patch.",
+          "onHit": "+7...",
+          "onBlock": "+3...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Knockdown on aerial hit.",
+          "onHit": "+7...",
+          "onBlock": "+3...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "6",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+4...",
+          "onBlock": "0...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "8",
+          "damage": "500",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+8...",
+          "onBlock": "+4...",
+          "activeFrames": "5",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "11",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+10...",
+          "onBlock": "+6...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump, Down + Heavy Punch (Great Spin)",
+          "startup": "9",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+11...",
+          "onBlock": "+7...",
+          "activeFrames": "11",
+          "recovery": "8 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Condor Wind (Light Punch)",
+          "startup": "47...109",
+          "totalFrames": "47...109",
+          "notes": "Light Punch version only charges up a Wind Stock, does not attack. Hold Punch to continue charging, up to three stocks.",
+          "inputSequence": "Down, Down-Back, Back + Light Punch"
+        },
+        {
+          "name": "Condor Wind (Medium Punch)",
+          "startup": "23...93",
+          "totalFrames": "51...121",
+          "damage": "900",
+          "attackType": "High",
+          "notes": "Charges up a Wind Stock. Hold Punch to continue charging, up to three stocks. Held Attack comes out on frame 4 once Punch is released.",
+          "onHit": "+2",
+          "onBlock": "-8",
+          "activeFrames": "5",
+          "recovery": "25",
+          "inputSequence": "Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Condor Wind (Heavy Punch)",
+          "startup": "25...93",
+          "totalFrames": "53...121",
+          "damage": "1100",
+          "attackType": "High",
+          "notes": "Charges up a Wind Stock. Hold Punch to continue charging, up to three stocks. Held Attack comes out on frame 4 once Punch is released.",
+          "onHit": "Knockdown +30",
+          "onBlock": "-8",
+          "activeFrames": "5",
+          "recovery": "25",
+          "inputSequence": "Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Condor Wind (Overdrive)",
+          "startup": "19 (40)",
+          "totalFrames": "45 (40)",
+          "damage": "1200",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit. Charges up a Wind Stock. Held version (data in parenthesis) only charges one stock, takes 40 total frames, and will not attack after the hold.",
+          "onHit": "Knockdown +39 (--)",
+          "onBlock": "-5 (--)",
+          "activeFrames": "5 (--)",
+          "recovery": "23 (--)",
+          "inputSequence": "Down, Down-Back, Back + PP"
+        },
+        {
+          "name": "Condor Spire (Light Kick)",
+          "startup": "17 (9)",
+          "totalFrames": "45 (51)",
+          "damage": "800 (100, 100, 800)",
+          "attackType": "High",
+          "notes": "Wind Stock version in parenthesis.",
+          "onHit": "Knockdown +33 (Knockdown +47)",
+          "onBlock": "-8...+4 (+1...+7)",
+          "activeFrames": "13 (5, 18)",
+          "recovery": "16 (14)",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Condor Spire (Medium Kick)",
+          "startup": "21 (13)",
+          "totalFrames": "49 (55)",
+          "damage": "900 (100, 100, 900)",
+          "attackType": "High",
+          "notes": "Wind Stock version in parenthesis.",
+          "onHit": "Knockdown +37 (Knockdown +49)",
+          "onBlock": "-8...+4 (+1...+7)",
+          "activeFrames": "13 (5, 18)",
+          "recovery": "16 (14)",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Condor Spire (Heavy Kick)",
+          "startup": "25 (17)",
+          "totalFrames": "53 (59)",
+          "damage": "1000 (100, 100, 1000)",
+          "attackType": "High",
+          "notes": "Wind Stock version in parenthesis.",
+          "onHit": "Knockdown +37 (Knockdown +52)",
+          "onBlock": "-8...+4 (+1...+7)",
+          "activeFrames": "13 (5, 18)",
+          "recovery": "16 (14)",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Condor Spire (Overdrive)",
+          "startup": "15 (9)",
+          "totalFrames": "43 (46)",
+          "damage": "1000 (100, 100, 1000)",
+          "attackType": "High",
+          "notes": "Wind Stock version in parenthesis.",
+          "onHit": "Knockdown +42 (Knockdown +56)",
+          "onBlock": "-8...+4 (+2...+8)",
+          "activeFrames": "13 (24)",
+          "recovery": "16 (14)",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Tomahawk Buster (Light Punch)",
+          "startup": "6 (4)",
+          "totalFrames": "49 (49)",
+          "damage": "900 (400, 600)",
+          "attackType": "High",
+          "notes": "Anti-Air invincible on frames 1-10. Wind Stock version in parenthesis.",
+          "onHit": "Knockdown +36 (Knockdown +41)",
+          "onBlock": "-27 (-25)",
+          "activeFrames": "11 (14)",
+          "recovery": "33 (33)",
+          "inputSequence": "Forward, Down, Down-Forward + Light Punch"
+        },
+        {
+          "name": "Tomahawk Buster (Medium Punch)",
+          "startup": "8 (6)",
+          "totalFrames": "56 (56)",
+          "damage": "1000 (400, 800)",
+          "attackType": "High",
+          "notes": "Anti-Air invincible on frames 1-12. Wind Stock version in parenthesis.",
+          "onHit": "Knockdown +36 (Knockdown +41)",
+          "onBlock": "-32 (-30)",
+          "activeFrames": "12 (15)",
+          "recovery": "37 (37)",
+          "inputSequence": "Forward, Down, Down-Forward + Medium Punch"
+        },
+        {
+          "name": "Tomahawk Buster (Heavy Punch)",
+          "startup": "10 (8)",
+          "totalFrames": "61 (61)",
+          "damage": "1200 (400, 1000)",
+          "attackType": "High",
+          "notes": "Anti-Air invincible on frames 1-14. Wind Stock version in parenthesis.",
+          "onHit": "Knockdown +36 (Knockdown +41)",
+          "onBlock": "-35 (-33)",
+          "activeFrames": "14 (17)",
+          "recovery": "38 (38)",
+          "inputSequence": "Forward, Down, Down-Forward + Heavy Punch"
+        },
+        {
+          "name": "Tomahawk Buster (Overdrive)",
+          "startup": "6 (4)",
+          "totalFrames": "60 (60)",
+          "damage": "800, 600 (400, 600, 600)",
+          "attackType": "High",
+          "notes": "Anti-Air and Throw invincible on frames 1-10. Wind Stock version in parenthesis. Can cancel into Overdrive Condor Dive on hit.",
+          "onHit": "Knockdown +32 (Knockdown +33)",
+          "onBlock": "-35 (-35)",
+          "activeFrames": "12 (15)",
+          "recovery": "43 (43)",
+          "inputSequence": "Forward, Down, Down-Forward + PP"
+        },
+        {
+          "name": "Condor Dive",
+          "startup": "12 (12)",
+          "damage": "800 (200, 800)",
+          "attackType": "High",
+          "notes": "Wind Stock version in parenthesis. Active until landing. Recovery on whiff is 24, but recovery on hit/block is variable based on height (31.../36...).",
+          "onHit": "Knockdown +32...+37 (Knockdown +33...+38)",
+          "onBlock": "-19...-24 (-19...-24)",
+          "recovery": "24* (24*)",
+          "inputSequence": "Neutral or Forward Jump, PP"
+        },
+        {
+          "name": "Condor Dive (Overdrive)",
+          "startup": "12 (12)",
+          "damage": "1400 (200, 1400)",
+          "attackType": "High",
+          "notes": "Wind Stock version in parenthesis. Active until landing. Recovery on whiff is 24, but recovery on hit/block is variable based on height (31.../36...).",
+          "onHit": "Knockdown +40...+46 (Knockdown +42...+48)",
+          "onBlock": "-19...-24 (-19...-24)",
+          "recovery": "24* (24*)",
+          "inputSequence": "Neutral or Forward Jump, PPP"
+        },
+        {
+          "name": "Mexican Typhoon",
+          "startup": "5",
+          "damage": "2000 (2300) / 2400 (2760) / 2800 (3220) / 2900 (3350)",
+          "attackType": "Throw",
+          "notes": "Wind Stock version in parenthesis. Light Punch version has the most range but the least damage, Heavy Punch has the least range but the most damage. Overdrive has maximum range and damage compared to the normal versions.",
+          "onHit": "Knockdown +28",
+          "activeFrames": "3",
+          "recovery": "53",
+          "inputSequence": "360 + P"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Breezing Hawk (Level 1)",
+          "startup": "10",
+          "damage": "2200",
+          "attackType": "High",
+          "notes": "Strike/Throw invincible on frames 1-14. Breaks armor.",
+          "onHit": "Knockdown +27",
+          "onBlock": "-36",
+          "recovery": "51",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        },
+        {
+          "name": "Thunderbird (Level 2)",
+          "startup": "9 (9)",
+          "damage": "2600 (2900)",
+          "notes": "Fully invincible on frames 1-12, projectile invincible on frames 13-41. Breaks armor. Wind Stock version in parenthesis. Can be used in the air. June 2025 patch notes say it's invincible until frame 4, but no hurtbox exists until frame 12.",
+          "onHit": "Knockdown +42 (Knockdown +43)",
+          "onBlock": "-60 (-59)",
+          "recovery": "63",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + K"
+        },
+        {
+          "name": "Raging Typhoon (Level 3)",
+          "startup": "7",
+          "damage": "4500 (5000)",
+          "attackType": "Throw + Hit",
+          "notes": "Fully invincible on frames 1-8. Breaks armor. Critical Art in parenthesis. Can be combo'd into as a hit or used empty as a grab, although the opponent can jump away after the screen freeze.",
+          "onHit": "Knockdown +4",
+          "activeFrames": "2",
+          "recovery": "106",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + P"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 116 (hit)",
+          "damage": "1500",
+          "attackType": "Throw",
+          "onHit": "+20",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 132 (hit)",
+          "damage": "1400",
+          "attackType": "Throw",
+          "onHit": "+32",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}

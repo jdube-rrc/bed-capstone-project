@@ -1,0 +1,626 @@
+{
+  "character": "manon",
+  "url": "https://ultimateframedata.com/sf6/manon",
+  "scrapedAt": "2025-10-16T22:23:48.807Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "4",
+          "totalFrames": "16",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "10"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "7",
+          "totalFrames": "24",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "notes": "As of June 2025 patch: on block from -1 to -2, recovery from 14 to 15 frames.",
+          "onHit": "+2",
+          "onBlock": "-2",
+          "activeFrames": "4",
+          "recovery": "15"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "10",
+          "totalFrames": "33",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "0",
+          "onBlock": "-3",
+          "activeFrames": "4",
+          "recovery": "20"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "5",
+          "totalFrames": "18",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+2",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "12"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "10",
+          "totalFrames": "30",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "-2",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "15",
+          "totalFrames": "43",
+          "damage": "900",
+          "attackType": "High",
+          "notes": "+1 on hit as of December 2024 patch.",
+          "onHit": "+1",
+          "onBlock": "-6",
+          "activeFrames": "3",
+          "recovery": "26"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "16",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "11"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "7",
+          "totalFrames": "22",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "As of June 2025 patch: on block from -1 to -2, recovery on whiff from 13 to 15.",
+          "onHit": "+6",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "13 (15 on whiff)"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "10",
+          "totalFrames": "35",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "-2",
+          "onBlock": "-8",
+          "activeFrames": "5",
+          "recovery": "21"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "19",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "-1",
+          "onBlock": "-5",
+          "activeFrames": "2",
+          "recovery": "13"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "8",
+          "totalFrames": "27",
+          "damage": "600",
+          "attackType": "Low",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "4",
+          "recovery": "16"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "11",
+          "totalFrames": "39",
+          "damage": "900",
+          "attackType": "Low",
+          "notes": "Limited Juggle Potential.",
+          "onHit": "Knockdown +29",
+          "onBlock": "-12",
+          "activeFrames": "2",
+          "recovery": "27"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Back + Medium Kick",
+          "startup": "10",
+          "totalFrames": "32",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "-1",
+          "onBlock": "-3",
+          "activeFrames": "4",
+          "recovery": "19"
+        },
+        {
+          "name": "Back + Heavy Punch",
+          "startup": "8",
+          "totalFrames": "30",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3...+8",
+          "onBlock": "+1...+6",
+          "activeFrames": "6",
+          "recovery": "17"
+        },
+        {
+          "name": "Down-Forward + Heavy Kick",
+          "startup": "11",
+          "totalFrames": "51",
+          "damage": "1000",
+          "attackType": "High",
+          "notes": "Limited Juggle Potential.",
+          "onHit": "Knockdown +26",
+          "onBlock": "-23",
+          "activeFrames": "9",
+          "recovery": "32"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "À Terre (Medium Punch, Medium Kick)",
+          "startup": "7, 10",
+          "totalFrames": "28, 24",
+          "damage": "600, 500",
+          "attackType": "High",
+          "notes": "As of June 2025 patch: Punish Counter changed from a knockback on the ground to a sweep knockdown. Increased hitstop on Punish Counter from 11 to 14 frames.",
+          "onHit": "+2, +2",
+          "onBlock": "-1, -5",
+          "activeFrames": "4, 2",
+          "recovery": "14, 17"
+        },
+        {
+          "name": "Back + Medium Kick, Medium Kick",
+          "startup": "10, 14",
+          "totalFrames": "32, 39",
+          "damage": "600, 500",
+          "attackType": "High, Overhead",
+          "cancellable": "Second Hit: Special, Super",
+          "onHit": "-3",
+          "onBlock": "-11",
+          "activeFrames": "4, 7",
+          "recovery": "19, 21"
+        },
+        {
+          "name": "Temps Lié (Heavy Punch, Heavy Punch)",
+          "startup": "10, 5",
+          "totalFrames": "33, 26",
+          "damage": "800, 600",
+          "attackType": "High",
+          "notes": "As of June 2025 patch: Changed the behavior on Punish Counter from a knockback on the ground to a blowback knockdown. Expanded attack hitbox horizontally on Punish Counter. Increased hitstop on Punish Counter from 13 to 15 frames. Added 20% combo scaling on the 2nd attack. Increased buffer input time at the end of recovery.",
+          "onHit": "0, +3",
+          "onBlock": "-3, -8",
+          "activeFrames": "4, 2",
+          "recovery": "20, 20"
+        },
+        {
+          "name": "Down + Heavy Punch, Heavy Punch",
+          "startup": "10, 4",
+          "totalFrames": "35, 33",
+          "damage": "600, 500",
+          "attackType": "High",
+          "onHit": "-2, +1",
+          "onBlock": "-8, -10",
+          "activeFrames": "5, 4",
+          "recovery": "21, 26"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+5...",
+          "onBlock": "+1...",
+          "activeFrames": "10",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "8",
+          "damage": "700",
+          "attackType": "Overhead",
+          "notes": "Limited Juggle State on air hit.",
+          "onHit": "+9...",
+          "onBlock": "+6...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "9",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Knockdown on aerial hit.",
+          "onHit": "+9...",
+          "onBlock": "+5...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "6",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+3...",
+          "onBlock": "-1...",
+          "activeFrames": "9",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "7",
+          "damage": "500",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+8...",
+          "onBlock": "+4...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "11",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+5...",
+          "activeFrames": "5",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Manège Doré (Light Punch)",
+          "startup": "10",
+          "totalFrames": "60",
+          "damage": "2000 / 2300 / 2700 / 3000 / 3700",
+          "attackType": "Throw",
+          "notes": "Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.",
+          "onHit": "Knockdown +19",
+          "activeFrames": "2",
+          "recovery": "49",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + Light Punch"
+        },
+        {
+          "name": "Manège Doré (Medium Punch)",
+          "startup": "8",
+          "totalFrames": "60",
+          "damage": "2000 / 2300 / 2700 / 3000 / 3700",
+          "attackType": "Throw",
+          "notes": "Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.",
+          "onHit": "Knockdown +19",
+          "activeFrames": "2",
+          "recovery": "51",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Manège Doré (Heavy Punch)",
+          "startup": "5",
+          "totalFrames": "60",
+          "damage": "2000 / 2300 / 2700 / 3000 / 3700",
+          "attackType": "Throw",
+          "notes": "Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.",
+          "onHit": "Knockdown +19",
+          "activeFrames": "2",
+          "recovery": "54",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Manège Doré (Overdrive)",
+          "startup": "8",
+          "totalFrames": "60",
+          "damage": "2000 / 2300 / 2700 / 3000 / 3700",
+          "attackType": "Throw",
+          "notes": "Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5.",
+          "onHit": "Knockdown +19",
+          "activeFrames": "2",
+          "recovery": "51",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Rond-point (Light Kick)",
+          "startup": "9, 6",
+          "totalFrames": "44",
+          "damage": "400, 500",
+          "attackType": "High",
+          "notes": "Upper body anti-air invincible on frames 5-15. As of June 2025 patch: Changed the effect when hitting an opponent on the ground from a blowback knockdown to a tailspin. Changed the Super Art 3/Critical Art canceling timing to the 2nd attack. Increased buffer input time at the end of recovery.",
+          "onHit": "Knockdown +31",
+          "onBlock": "-15",
+          "activeFrames": "3, 2",
+          "recovery": "29",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Rond-point (Medium Kick)",
+          "startup": "11, 6",
+          "totalFrames": "46",
+          "damage": "400, 600",
+          "attackType": "High",
+          "notes": "Upper body anti-air invincible on frames 7-19.",
+          "onHit": "Knockdown +34",
+          "onBlock": "-14",
+          "activeFrames": "3, 3",
+          "recovery": "27",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Rond-point (Heavy Kick)",
+          "startup": "14, 6",
+          "totalFrames": "46",
+          "damage": "400, 400",
+          "attackType": "High",
+          "notes": "Upper body anti-air invincible on frames 9-22. Limited Juggle State on hit (opponent must be high enough).",
+          "onHit": "Knockdown +37",
+          "onBlock": "-11",
+          "activeFrames": "3, 3",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Rond-point (Overdrive)",
+          "startup": "8, 6",
+          "totalFrames": "46",
+          "damage": "500, 300",
+          "attackType": "High",
+          "notes": "Upper body anti-air invincible on frames 9-22. Limited Juggle State on hit. Second hit does 400 damage if it is the only hit that connects.",
+          "onHit": "Knockdown +45",
+          "onBlock": "-19",
+          "activeFrames": "4, 3",
+          "recovery": "30",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Dégagé (Light Kick)",
+          "startup": "16, 11",
+          "totalFrames": "67",
+          "damage": "300, 700",
+          "attackType": "Low",
+          "onHit": "Knockdown +21",
+          "onBlock": "-24",
+          "activeFrames": "2, 4",
+          "recovery": "36",
+          "inputSequence": "Down, Down-Back, Back + Light Kick"
+        },
+        {
+          "name": "Dégagé (Medium Kick)",
+          "startup": "16, 15",
+          "totalFrames": "61",
+          "damage": "400, 800",
+          "attackType": "High",
+          "onHit": "Knockdown +33",
+          "onBlock": "-13",
+          "activeFrames": "4, 6",
+          "recovery": "22",
+          "inputSequence": "Down, Down-Back, Back + Medium Kick"
+        },
+        {
+          "name": "Dégagé (Heavy Kick)",
+          "startup": "20",
+          "totalFrames": "46",
+          "damage": "1000",
+          "attackType": "Overhead",
+          "notes": "Forces opponent to crouch on hit.",
+          "onHit": "+3",
+          "onBlock": "-9",
+          "activeFrames": "3",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Back, Back + Heavy Kick"
+        },
+        {
+          "name": "Dégagé (Overdrive)",
+          "startup": "22",
+          "totalFrames": "46",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+6",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "22",
+          "inputSequence": "Down, Down-Back, Back + KK"
+        },
+        {
+          "name": "Renversé (Light Punch)",
+          "startup": "22",
+          "totalFrames": "60",
+          "damage": "50, 1300 / 50, 1450 / 50, 1600 / 50, 1750 / 50, 1900",
+          "attackType": "High",
+          "notes": "Projectile invincible on frames 3-21. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 31 total frames with projectile invincibility on frames 3-13.",
+          "onHit": "Knockdown +15",
+          "onBlock": "-23",
+          "activeFrames": "2",
+          "recovery": "37",
+          "inputSequence": "Down, Down-Forward, Forward + Light Punch"
+        },
+        {
+          "name": "Renversé (Medium Punch)",
+          "startup": "25",
+          "totalFrames": "60",
+          "damage": "100, 1300 / 100, 1450 / 100, 1600 / 100, 1750 / 100, 1900",
+          "attackType": "High",
+          "notes": "Projectile invincible on frames 3-24. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 32 total frames with projectile invincibility on frames 3-14.",
+          "onHit": "Knockdown +15",
+          "onBlock": "-20",
+          "activeFrames": "2",
+          "recovery": "34",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Punch"
+        },
+        {
+          "name": "Renversé (Heavy Punch)",
+          "startup": "29",
+          "totalFrames": "60",
+          "damage": "200, 1300 / 200, 1450 / 200, 1600 / 200, 1750 / 200, 1900",
+          "attackType": "High",
+          "notes": "Projectile invincible on frames 3-28. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 33 total frames with projectile invincibility on frames 3-15.",
+          "onHit": "Knockdown +15",
+          "onBlock": "-16",
+          "activeFrames": "2",
+          "recovery": "30",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Punch"
+        },
+        {
+          "name": "Renversé (Overdrive)",
+          "startup": "25",
+          "totalFrames": "60",
+          "damage": "200, 1300 / 200, 1450 / 200, 1600 / 200, 1750 / 200, 1900",
+          "attackType": "High",
+          "notes": "Projectile and upper body invincible on frames 3-24. Medal level changes damage, listed as: Level 1 / Level 2 / Level 3 / Level 4 / Level 5. Hold Punch to feint, has 32 total frames with projectile invincibility on frames 3-14.",
+          "onHit": "Knockdown +15",
+          "onBlock": "-20",
+          "activeFrames": "2",
+          "recovery": "34",
+          "inputSequence": "Down, Down-Forward, Forward + PP"
+        },
+        {
+          "name": "Grand Fouetté",
+          "startup": "16+11",
+          "totalFrames": "38",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit.",
+          "onHit": "Knockdown +51",
+          "onBlock": "-5",
+          "activeFrames": "6",
+          "recovery": "22",
+          "inputSequence": "Down, Down-Forward, Forward + P > K"
+        },
+        {
+          "name": "Grand Fouetté (Overdrive)",
+          "startup": "15+11",
+          "totalFrames": "38",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Limited Juggle State on hit.",
+          "onHit": "Knockdown +58",
+          "onBlock": "-12",
+          "activeFrames": "6",
+          "recovery": "22",
+          "inputSequence": "Down, Down-Forward, Forward + PP > K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Arabesque (Level 1)",
+          "startup": "10",
+          "damage": "2000",
+          "attackType": "Low",
+          "notes": "Strike/throw invincible on frames 1-13. Breaks armor.",
+          "onHit": "Knockdown +7...",
+          "onBlock": "-49",
+          "activeFrames": "4",
+          "recovery": "65",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + K"
+        },
+        {
+          "name": "Étoile (Level 2)",
+          "startup": "7",
+          "damage": "450, 400, 500, 500, 950",
+          "notes": "Fully invincible on frames 1-9. Breaks armor.",
+          "onHit": "Knockdown +32",
+          "onBlock": "-61",
+          "activeFrames": "3, 6, 9",
+          "recovery": "72",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + K"
+        },
+        {
+          "name": "Pas de Deux (Level 3)",
+          "startup": "7",
+          "damage": "4000—4600 (4500—5100)",
+          "attackType": "Throw + High",
+          "notes": "Fully invincible on frames 1-8. Breaks armor. Critical Art in parenthesis. Can be combo'd into as a hit or used empty as a grab, although the opponent can jump away after the screen freeze. Does more damage per each Medal Level as of May 2024 patch.",
+          "onHit": "Knockdown +16",
+          "onBlock": "-65",
+          "activeFrames": "2",
+          "recovery": "72",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 95 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+16",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 94 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+18",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}

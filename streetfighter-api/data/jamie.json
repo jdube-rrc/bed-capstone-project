@@ -1,0 +1,688 @@
+{
+  "character": "jamie",
+  "url": "https://ultimateframedata.com/sf6/jamie",
+  "scrapedAt": "2025-10-16T22:23:29.805Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "5",
+          "totalFrames": "13 [16]",
+          "damage": "270 [285...]",
+          "attackType": "High",
+          "cancellable": "Special, Super, [Target Combo]",
+          "notes": "Requires at least 1 Drink to use Taret Combo, 1 Drink data listed in bracket.",
+          "onHit": "+5 [+2]",
+          "onBlock": "0 [-3]",
+          "activeFrames": "2 [3]",
+          "recovery": "7 [9]"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "8",
+          "totalFrames": "25",
+          "damage": "540",
+          "attackType": "High",
+          "onHit": "+6",
+          "onBlock": "+2",
+          "activeFrames": "4",
+          "recovery": "14"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "5, 7, 12",
+          "totalFrames": "34",
+          "damage": "90, 90, 630",
+          "attackType": "High",
+          "cancellable": "Second Hit Only: Special, Super",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "1, 1, 3",
+          "recovery": "20"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "5",
+          "totalFrames": "17",
+          "damage": "270",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+3",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "11"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "9",
+          "totalFrames": "29 (30 on whiff)",
+          "damage": "540",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Hurtbox expanded after active frames on June 2025 patch.",
+          "onHit": "+2",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "17 (18 on whiff)"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "15",
+          "totalFrames": "38",
+          "damage": "720",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Crumple of +71 on Punish Counter. Limited Juggle State on anti-air hit. As of December 2024 patch: \"Reduced the hurtbox on the front legs during the attack's start up\" was reported in the official patch notes... however, the hurtbox reduction is actually on his **hands** and on frames 5-8. Additionally, the move now has Anti-air invulnerability on frame 14 (1 frame before first active), which it did not have before. Advantage on hit changed from +1 to +3 in June 2025 patch.",
+          "onHit": "+3",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "21"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "14",
+          "damage": "225",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "9"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "6",
+          "totalFrames": "21 (23 on whiff)",
+          "damage": "540",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "As of June 2025 patch: hurtbox on feet increased vertically (to the top) on frames 16-17 on whiff. Feet hurtbox removed on frames 16-17 on hit/block.",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "13 (15 on whiff)"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "8",
+          "totalFrames": "35",
+          "damage": "810",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "As of June 2025 patch: startup reduced from 9 frames to 8 frames.",
+          "onHit": "0",
+          "onBlock": "-8",
+          "activeFrames": "5",
+          "recovery": "23"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "17",
+          "damage": "180",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "2",
+          "recovery": "11"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "7",
+          "totalFrames": "27",
+          "damage": "450",
+          "attackType": "Low",
+          "cancellable": "Special, Super",
+          "notes": "20% damage scaling to followup combo hits.",
+          "onHit": "-1",
+          "onBlock": "-6",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "9, 13",
+          "totalFrames": "43",
+          "damage": "360, 360",
+          "attackType": "Low, Low(High on block)",
+          "notes": "On block, the second hit changes to a high attack as of May 2024 patch.",
+          "onHit": "Knockdown +33",
+          "onBlock": "-11",
+          "activeFrames": "2, 3",
+          "recovery": "28 (29 on block)"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Down + KK",
+          "startup": "9",
+          "totalFrames": "33",
+          "damage": "540",
+          "attackType": "High",
+          "cancellable": "Jump",
+          "notes": "Limited Juggle State on hit.",
+          "onHit": "Knockdown +53",
+          "onBlock": "-8",
+          "activeFrames": "3",
+          "recovery": "22"
+        },
+        {
+          "name": "Forward + Medium Kick (Falling Star Kick)",
+          "startup": "22",
+          "totalFrames": "44",
+          "damage": "540",
+          "attackType": "Overhead",
+          "cancellable": "[Target Combo]",
+          "notes": "At 2 Drinks, can Target Combo (no other changes to data).",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "5",
+          "recovery": "20"
+        },
+        {
+          "name": "Back + Heavy Punch (Hermit's Elbow)",
+          "startup": "18",
+          "totalFrames": "41",
+          "damage": "720",
+          "attackType": "High",
+          "cancellable": "[Target Combo]",
+          "notes": "At 3 Drinks, can Target Combo (no other changes to data).",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "4",
+          "recovery": "20"
+        },
+        {
+          "name": "Forward + Heavy Kick (Senei Kick)",
+          "startup": "16",
+          "totalFrames": "38",
+          "damage": "810 [990]",
+          "attackType": "High",
+          "cancellable": "Super, [Target Combo]",
+          "notes": "At 4 Drinks, can Target Combo, 4 Drinks data listed in bracket.",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "3 [4]",
+          "recovery": "20 [19]"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Down + Heavy Kick, Heavy Kick, Punch",
+          "startup": "(9, 13), 12, --",
+          "totalFrames": "(43), 57, 61",
+          "damage": "(360, 360), 450, --",
+          "attackType": "(Low, Low), High, Drink",
+          "notes": "Third \"hit\" is a cancel into Drink.",
+          "onHit": "(Knockdown +33), Knockdown +22, Knockdown +4",
+          "onBlock": "(-10), -28, -46",
+          "activeFrames": "2, 4, 4",
+          "recovery": "(28), 43, 61"
+        },
+        {
+          "name": "Light Punch, Light Kick, Medium Punch (Bitter Strikes)",
+          "startup": "5, 6, 8",
+          "totalFrames": "13, 23, 31",
+          "damage": "285",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Requires at least 1 Drink to use, data listed at 1 Drink.",
+          "onHit": "+2, -3, -1",
+          "onBlock": "-3, -8,- 10",
+          "activeFrames": "3, 2, 5",
+          "recovery": "9, 16, 21"
+        },
+        {
+          "name": "Forward + Medium Kick, Medium Kick, Punch (Full Moon Kick)",
+          "startup": "22, 15, --",
+          "totalFrames": "44, 52, 61",
+          "damage": "600, (200, 200), --",
+          "attackType": "Overhead, (High, High), Drink",
+          "notes": "Requires at least 2 Drinks to use, data listed at 2 Drinks. As of June 2025 patch: no longer drinks if kick button is held after 2nd attack hits.",
+          "onHit": "+1, Knockdown +31, Knockdown -1",
+          "onBlock": "-3, -14, -46",
+          "activeFrames": "5, (3, 2), --",
+          "recovery": "20, 28, 61"
+        },
+        {
+          "name": "Back + Heavy Punch, Heavy Punch, Heavy Kick (Intoxicated Assault)",
+          "startup": "18, 21, 21",
+          "totalFrames": "41, 44, 60",
+          "damage": "840, 630, 840",
+          "attackType": "High",
+          "cancellable": "Second Hit: Super",
+          "notes": "Requires at least 3 Drinks to use, data listed at 3 Drinks. Second hit only combos on meaty or counter hit.",
+          "onHit": "+1, +1, Knockdown +23",
+          "onBlock": "-3, -11, -20",
+          "activeFrames": "4, 4, 3",
+          "recovery": "20, 20, 37"
+        },
+        {
+          "name": "Forward + Heavy Kick, Back + Heavy Kick, Punch (Ransui Haze)",
+          "startup": "Close: 16, 25...+15 \n\t\tMiddle: 16, 51...+4",
+          "totalFrames": "Close: 38, **, 48... \n\t\tMiddle: 38, **, 55...",
+          "damage": "Close: 990, --, 935 \n\t\tMiddle: 990, --, (330, 330, 660)",
+          "attackType": "High",
+          "cancellable": "Close: Special, Super \n\t\tMiddle: Special, Super",
+          "notes": "Requires 4 Drinks to use, data listed at 4 Drinks. B+HK sways backward for at least 25 frames after the first hit, then Punch activates a different followup based on range: Close is a Headbutt, Middle is a spinning triple punch, and Far is a Drink.",
+          "onHit": "Close: +3, --, Knockdown +32 \n\t\tMiddle: +3, --, Knockdown +35",
+          "onBlock": "Close: -3, --, -12 \n\t\tMiddle: -3, --, -9",
+          "activeFrames": "Close: 4, --, 4 \n\t\tMiddle: 4, --, (2, 2, 2)",
+          "recovery": "Close: 19, --, 28 \n\t\tMiddle: 19, --, 27"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "5",
+          "damage": "270",
+          "attackType": "Overhead",
+          "onHit": "+4...",
+          "onBlock": "+0...",
+          "activeFrames": "9",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "7",
+          "damage": "630",
+          "attackType": "Overhead",
+          "cancellable": "Special",
+          "notes": "Limited Juggle State on air hit.",
+          "onHit": "+10...+11",
+          "onBlock": "+6...+7",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "10",
+          "damage": "720",
+          "attackType": "Overhead",
+          "notes": "Knockdown on air hit.",
+          "onHit": "+8...",
+          "onBlock": "+4...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "6",
+          "damage": "270",
+          "attackType": "Overhead",
+          "onHit": "+6...",
+          "onBlock": "+2...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "7",
+          "damage": "450",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+9...",
+          "onBlock": "+5...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "8, 16",
+          "damage": "360, 360",
+          "attackType": "Overhead",
+          "notes": "As of December 2024 patch: now gives limited juggle state on all air-to-air hits.",
+          "onHit": "+11...",
+          "onBlock": "+7...",
+          "activeFrames": "3, 4",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "The Devil Inside",
+          "totalFrames": "50...",
+          "attackType": "Drink",
+          "notes": "Grants 1 Drink. In a Counter-Hit state for duration. Can be held to continue drinking.All of Jamie's normal and special attacks start at 90% Damage scaling with 0 Drinks. Each Drink increases the scaling by 5%, so: 1 Drink: 95% / 2 Drinks: 100% / 3 Drinks: 105% / 4 Drinks: 110%. Additionally, each Drink unlocks a new Target Combo and a new Special Move. At 4 Drinks, some of his Special Moves change as well. Drinking again while at 4 Drinks will instead generate Drive Gauge. No Overdrive version.",
+          "inputSequence": "Down, Down + P"
+        },
+        {
+          "name": "Freeflow Strikes (First Hit)",
+          "startup": "0-3 Drinks: 13 / 16 / 19 / 13\n\t\t4 Drinks: 13 / 16 / 19 / 13",
+          "totalFrames": "0-3 Drinks: 38 / 41 / 44 / 38\n\t\t4 Drinks: 45 / 48 / 51 / 45",
+          "damage": "0-3 Drinks: 315 / 360 / 405 / 405\n\t\t4 Drinks: 220, 220 / 220, 330 / 220, 440 / 220, 440",
+          "attackType": "High",
+          "notes": "Data listed as \"Light Punch / Medium Punch / Heavy Punch / Overdrive\"Is a Rekka style attack, so can be followed up with Forward + Punch once or twice (data for each followup is listed as a separate entry).",
+          "onHit": "0-3 Drinks: -1 / -1 / -1 / +1\n\t\t4 Drinks: +1 / +1 / +1 / +3",
+          "onBlock": "0-3 Drinks: -6 / -6 / -6 / -3\n\t\t4 Drinks: -3 / -3 / -3 / -3",
+          "activeFrames": "0-3 Drinks: 2\n\t\t4 Drinks: 2, 2",
+          "recovery": "0-3 Drinks: 24\n\t\t4 Drinks: 20",
+          "inputSequence": "Down, Down-Forward, Forward + Punch"
+        },
+        {
+          "name": "Freeflow Strikes > Punch Followup 1",
+          "startup": "0-3 Drinks: 13 / 16 / 19 / 13\n\t\t4 Drinks: 15 / 15 / 15 / 15",
+          "totalFrames": "0-3 Drinks: 42 / 45 / 48 / 42\n\t\t4 Drinks: 50 / 50 / 50 / 50",
+          "damage": "0-3 Drinks: 315 / 360 / 405 / 405\n\t\t4 Drinks: 220, 275 / 220, 275 / 220, 275 / 220, 330",
+          "attackType": "High",
+          "notes": "Data listed as \"Light Punch / Medium Punch / Heavy Punch / Overdrive\"",
+          "onHit": "0-3 Drinks: -3 / -3 / -3 / -3\n\t\t4 Drinks: -2 / -2 / -2 / -2",
+          "onBlock": "0-3 Drinks: -13 / -11 / -9 / -9\n\t\t4 Drinks: -10 / -10 / -10 / -10",
+          "activeFrames": "0-3 Drinks: 2\n\t\t4 Drinks: 2, 2",
+          "recovery": "0-3 Drinks: 28\n\t\t4 Drinks: 27",
+          "inputSequence": "Freeflow Strikes > Forward + P"
+        },
+        {
+          "name": "Freeflow Strikes > Punch Followup 2",
+          "startup": "0-3 Drinks: 13 / 16 / 19 / 13\n\t\t4 Drinks: 13 / 16 / 19 / 13",
+          "totalFrames": "0-3 Drinks: 44 / 47 / 50 / 44\n\t\t4 Drinks: 68 / 68 / 68 / 68",
+          "damage": "0-3 Drinks: 550 / 600 / 650 / 750\n\t\t4 Drinks: :^)",
+          "attackType": "High",
+          "notes": "Data listed as \"Light Punch / Medium Punch / Heavy Punch / Overdrive\". Third hit always scales to 72% (396 / 432 / 468 / 540). 4 Drinks version does more scaling, I'll farm that data out sometime when I hate myself more. June 2025 patch: 20% followup scaling added to normal, 25% followup scaling added to Overdrive version -- but can cancel into Level 3 now.",
+          "onHit": "0-3 Drinks: Knockdown +27 / KD +27 / KD +27 / KD +28\n\t\t4 Drinks: Knockdown +27 / KD +27 / KD +27 / KD +28",
+          "onBlock": "0-3 Drinks: -13 / -11 / -9 / -9\n\t\t4 Drinks: -14 / -14 / -14 / -14",
+          "activeFrames": "0-3 Drinks: 2\n\t\t4 Drinks: 2, 2, 3",
+          "recovery": "0-3 Drinks: 30\n\t\t4 Drinks: 28",
+          "inputSequence": "Freeflow Strikes > Forward + P > Forward + P"
+        },
+        {
+          "name": "Freeflow Strikes > Kick Followup 1",
+          "startup": "14 / 17 / 20 / 14",
+          "totalFrames": "47 / 50 / 53 / 47",
+          "damage": "225 / 270 / 270 / 315",
+          "attackType": "High",
+          "notes": "Kick stregnth does not change data, it is based off of the originating Punch from Freeflow Strikes. Data listed as \"Light Punch / Medium Punch / Heavy Punch / Overdrive\".",
+          "onHit": "-7",
+          "onBlock": "-15",
+          "activeFrames": "2",
+          "recovery": "28",
+          "inputSequence": "Freeflow Strikes > Forward + K"
+        },
+        {
+          "name": "Freeflow Strikes > Kick Followup 2",
+          "startup": "18 / 21 / 24 / 18",
+          "totalFrames": "83 / 86 / 89 / 83",
+          "damage": "450 / 500 / 550 / 600",
+          "attackType": "High",
+          "notes": "Kick stregnth does not change data, it is based off of the originating Punch from Freeflow Strikes. Data listed as \"Light Punch / Medium Punch / Heavy Punch / Overdrive\". Third hit always scales to 72% (324 / 360 / 396 / 432). Transitioning into 4 Drinks gives better advantage, listed in brackets.",
+          "onHit": "Knockdown -1 / KD -1 / KD -1 / KD +1 [KD +24]",
+          "onBlock": "-49 / -49 / -49 / -49 [-26]",
+          "activeFrames": "2",
+          "recovery": "64",
+          "inputSequence": "Freeflow Strikes > Forward + K"
+        },
+        {
+          "name": "Swagger Step (Light Punch)",
+          "startup": "17",
+          "totalFrames": "42",
+          "damage": "810",
+          "attackType": "High",
+          "onHit": "Knockdown +39",
+          "onBlock": "-6...+1",
+          "activeFrames": "9",
+          "recovery": "17",
+          "inputSequence": "Down, Down-Back, Back + Light Punch"
+        },
+        {
+          "name": "Swagger Step (Medium Punch)",
+          "startup": "20",
+          "totalFrames": "45",
+          "damage": "900",
+          "attackType": "High",
+          "onHit": "Knockdown +41",
+          "onBlock": "-3...-1",
+          "activeFrames": "9",
+          "recovery": "17",
+          "inputSequence": "Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Swagger Step (Heavy Punch)",
+          "startup": "25",
+          "totalFrames": "49",
+          "damage": "1080",
+          "attackType": "High",
+          "onHit": "Knockdown +42",
+          "onBlock": "-3...+4",
+          "activeFrames": "9",
+          "recovery": "16",
+          "inputSequence": "Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Swagger Step (Overdrive)",
+          "startup": "20",
+          "totalFrames": "43",
+          "damage": "990",
+          "attackType": "High",
+          "onHit": "Knockdown blowback juggle +73",
+          "onBlock": "-1...+6",
+          "activeFrames": "9",
+          "recovery": "15",
+          "inputSequence": "Down, Down-Back, Back + PP"
+        },
+        {
+          "name": "Swagger Step > Swagger Hermit Punch",
+          "startup": "19",
+          "totalFrames": "60",
+          "damage": "990 (880)",
+          "attackType": "High",
+          "notes": "Requires 4 Drinks to use. Limited Juggle Potential. Data listed as \"Light Punch / Medium Punch / Heavy Punch / Overdrive\". Overdrive version does less damage.",
+          "onHit": "Knockdown +20",
+          "onBlock": "-23",
+          "activeFrames": "3",
+          "recovery": "39",
+          "inputSequence": "Down, Down-Back, Back + P > Forward + P"
+        },
+        {
+          "name": "Arrow Kick (Light Kick)",
+          "startup": "5",
+          "totalFrames": "66",
+          "damage": "450, 450",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-11. Lower Body invincible on frames 5-22. As of June 2025 patch: active frames from 7 to 10, recovery from 54 to 52 (undocumented: 1 frame less Anti-air invincibility, 1 more frame more Lower Body invinciblity).",
+          "onHit": "Knockdown +42",
+          "onBlock": "-44",
+          "activeFrames": "10",
+          "recovery": "52",
+          "inputSequence": "Forward, Down, Down-Forward + Light Kick"
+        },
+        {
+          "name": "Arrow Kick (Medium Kick)",
+          "startup": "8",
+          "totalFrames": "67",
+          "damage": "450, 630",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-14, Lower Body invincible on frames 8-23. As of June 2025 patch: active frames from 7 to 9, recovery from 53 to 51.",
+          "onHit": "Knockdown +34",
+          "onBlock": "-43",
+          "activeFrames": "9",
+          "recovery": "51",
+          "inputSequence": "Forward, Down, Down-Forward + Medium Kick"
+        },
+        {
+          "name": "Arrow Kick (Heavy Kick)",
+          "startup": "10",
+          "totalFrames": "69",
+          "damage": "450, 360, 450",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-16, Lower Body invincible on frames 10-25. As of June 2025 patch: active frames from 7 to 9, recovery from 53 to 51.",
+          "onHit": "Knockdown +39",
+          "onBlock": "-43",
+          "activeFrames": "9",
+          "recovery": "50",
+          "inputSequence": "Forward, Down, Down-Forward + Heavy Kick"
+        },
+        {
+          "name": "Arrow Kick (Overdrive)",
+          "startup": "6",
+          "totalFrames": "65",
+          "damage": "450, 405, 495",
+          "attackType": "High",
+          "notes": "Fully invincibile on frames 1-9. Anti-air invincible on frames 10-12, Lower Body invincible on frames 10-21.",
+          "onHit": "Knockdown +40",
+          "onBlock": "-43",
+          "activeFrames": "7",
+          "recovery": "53",
+          "inputSequence": "Forward, Down, Down-Forward + KK"
+        },
+        {
+          "name": "Luminous Dive Kick",
+          "startup": "11",
+          "totalFrames": "**",
+          "damage": "950 (760)",
+          "attackType": "High",
+          "notes": "Requires 1 Drink to use. Kick strength changes trajectory. Active until landing. Overdrive causes a Limited Juggle State, data in parenthesis. Air to air hit: Normal versions force knockdown, Overdrive version gives ground bounce Limited Juggle State.",
+          "onHit": "Knockdown +43...+52 (KD +59...+65)",
+          "onBlock": "-4...+2 (-3...+3)",
+          "recovery": "13 Landing",
+          "inputSequence": "Forward Jump, Down, Down-Back, Back + K"
+        },
+        {
+          "name": "Bakkai (Light Kick)",
+          "startup": "18",
+          "totalFrames": "67",
+          "damage": "250, 250, 250, 650",
+          "attackType": "High",
+          "notes": "Requires 2 Drinks to use. Projectile invincible on frames 3-24.",
+          "onHit": "Knockdown +42",
+          "onBlock": "-12",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Bakkai (Medium Kick)",
+          "startup": "22",
+          "totalFrames": "90",
+          "damage": "250, 250, 250, 250, 250, 350",
+          "attackType": "High",
+          "notes": "Requires 2 Drinks to use. Projectile invincible on frames 4-26.",
+          "onHit": "Knockdown +35",
+          "onBlock": "-16",
+          "recovery": "31",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Bakkai (Heavy Kick)",
+          "startup": "25",
+          "totalFrames": "124",
+          "damage": "250, 250, 250, 250, 250, 250, 300",
+          "attackType": "High",
+          "notes": "Requires 2 Drinks to use. Projectile invincible on frames 5-35.",
+          "onHit": "Knockdown +34",
+          "onBlock": "-17",
+          "recovery": "32",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Bakkai (Overdrive)",
+          "startup": "21",
+          "totalFrames": "162",
+          "damage": "180x9, 380",
+          "attackType": "High",
+          "notes": "Requires 2 Drinks to use. Projectile invincible on frames 3-28.",
+          "onHit": "Knockdown +12",
+          "onBlock": "-46",
+          "recovery": "62",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Tenshin",
+          "startup": "8",
+          "totalFrames": "61",
+          "damage": "0 (682)",
+          "attackType": "Throw",
+          "notes": "Requires 3 Drinks to use. A command grab that gives a free followup attack. Attack strength does not change data. Waiting after an Overdrive hit causes a delayed crumple into Limited Juggle State. Overdrive data in parenthesis.",
+          "onHit": "+8 (Knockdown +86)",
+          "activeFrames": "2",
+          "recovery": "52",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Breakin' (Level 1)",
+          "startup": "10",
+          "damage": "1755 (1575)",
+          "attackType": "High",
+          "notes": "Strike/throw invincible on frames 1-11. Breaks armor. Can hold Down during animation to decrease damage but take a Drink at the end (data in parenthesis).",
+          "onHit": "Knockdown +7 (Knockdown -1)",
+          "onBlock": "-60 (-93)",
+          "recovery": "74 (107)",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + K"
+        },
+        {
+          "name": "The Devil's Song (Level 2)",
+          "startup": "1",
+          "notes": "Temporarily enables 4 Drinks for the duration of the timer, but at only 105% strength for attacks (real 4 Drinks is 110%). If used when Jamie already has 4 Drinks, will instead refill 3 Drive Bars or 50% of Burnout Gauage. In February 27, 2024 patch: no longer removes drinks on ending (yay!).",
+          "recovery": "5",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + P"
+        },
+        {
+          "name": "Getsuga Saiho (Level 3)",
+          "startup": "10",
+          "damage": "2340 (4050)",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-11. Breaks armor. Critical Art in parenthesis. Non-CA version launches into a Free Juggle State on hit.",
+          "onHit": "Knockdown +71 (Knockdown +18)",
+          "onBlock": "-27",
+          "recovery": "42",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 124 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "notes": "Can hold throw to add a drink to the throw (added in February 27, 2024 patch). Data in parenthesis.",
+          "onHit": "+23 (+7)",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 124 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+38",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}

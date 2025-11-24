@@ -1,0 +1,744 @@
+{
+  "character": "ken",
+  "url": "https://ultimateframedata.com/sf6/ken",
+  "scrapedAt": "2025-10-16T22:23:38.504Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "4",
+          "totalFrames": "13",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "notes": "In February 27, 2024 patch: arm hurtbox increased on frames 2-6 but decreased on frames 7-8.",
+          "onHit": "+4",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "7"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "5",
+          "totalFrames": "22",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "notes": "June 2025 patch: reduced hitbox, increased hurtbox on feet.",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "4",
+          "recovery": "14"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "10",
+          "totalFrames": "31",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "5",
+          "recovery": "17"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "5",
+          "totalFrames": "18",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "0",
+          "onBlock": "-2",
+          "activeFrames": "2",
+          "recovery": "12"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "8",
+          "totalFrames": "30",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "+3",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "20"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "12",
+          "totalFrames": "38",
+          "damage": "800",
+          "attackType": "High",
+          "onHit": "+1",
+          "onBlock": "-5",
+          "activeFrames": "2",
+          "recovery": "25"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "14",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "9"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "6",
+          "totalFrames": "22 (24 on whiff)",
+          "damage": "700",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "June 2025 patch: increased hurtbox on feet, 2 more frames of recovery on whiff.",
+          "onHit": "+3",
+          "onBlock": "0",
+          "activeFrames": "3",
+          "recovery": "14 (16 on whiff)"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "8",
+          "totalFrames": "35",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+3",
+          "onBlock": "-10",
+          "activeFrames": "4",
+          "recovery": "24"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "17",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "10"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "7",
+          "totalFrames": "28",
+          "damage": "500",
+          "attackType": "Low",
+          "cancellable": "Special, Super",
+          "notes": "20% damage scaling to followup combo hits.",
+          "onHit": "-2",
+          "onBlock": "-6",
+          "activeFrames": "3",
+          "recovery": "19"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "8",
+          "totalFrames": "34",
+          "damage": "900",
+          "attackType": "Low",
+          "onHit": "Knockdown +40",
+          "onBlock": "-10",
+          "activeFrames": "3",
+          "recovery": "24"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Quick Dash (KK)",
+          "startup": "11...",
+          "totalFrames": "...45"
+        },
+        {
+          "name": "Quick Dash > Emergency Stop",
+          "startup": "11...+16",
+          "totalFrames": "27..."
+        },
+        {
+          "name": "Quick Dash > Thunder Kick",
+          "startup": "11...+18",
+          "totalFrames": "40",
+          "damage": "1000",
+          "attackType": "Overhead, High",
+          "cancellable": "Super",
+          "onHit": "+3",
+          "onBlock": "-4",
+          "activeFrames": "4",
+          "recovery": "20"
+        },
+        {
+          "name": "Quick Dash > Forward Step Kick",
+          "startup": "11...+10",
+          "totalFrames": "33",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Super",
+          "notes": "20% initial scaling and extended hurtbox during recovery, as of December 2024 patch.",
+          "onHit": "+3",
+          "onBlock": "-4",
+          "activeFrames": "4",
+          "recovery": "20"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Medium Punch, Heavy Punch",
+          "startup": "5, 11",
+          "totalFrames": "22, 40",
+          "damage": "600, 400",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+4, Knockdown +28",
+          "onBlock": "-2, -14",
+          "activeFrames": "4, 3",
+          "recovery": "14, 27"
+        },
+        {
+          "name": "Medium Kick, Medium Kick, Hard Kick",
+          "startup": "8, 11, 13",
+          "totalFrames": "30, 39, 43",
+          "damage": "600, 400, 700",
+          "attackType": "High",
+          "notes": "If all hits connect, 2nd hit damage will scale to 320 (80%) and 3rd hit damage to 490 (70%).",
+          "onHit": "+3, Knockdown +28, Knockdown +32",
+          "onBlock": "-5, -12, -11",
+          "activeFrames": "3, 2, 4",
+          "recovery": "20, 27, 28"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+5...",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "6",
+          "damage": "700",
+          "attackType": "Overhead",
+          "cancellable": "Special",
+          "notes": "Juggle state on air hit.",
+          "onHit": "+10...",
+          "onBlock": "+6...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "9",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+4...",
+          "onBlock": "+8...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "6",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+4...",
+          "onBlock": "+0...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "7",
+          "damage": "500",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+10...",
+          "onBlock": "+6...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+12...",
+          "onBlock": "+8...",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Neutral Jump Heavy Kick",
+          "startup": "6",
+          "damage": "900",
+          "attackType": "Overhead",
+          "onHit": "+13...",
+          "onBlock": "+9...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Hadoken (Light Punch)",
+          "startup": "16",
+          "totalFrames": "49",
+          "damage": "600",
+          "attackType": "High",
+          "onHit": "-1...",
+          "onBlock": "-7...",
+          "activeFrames": "...",
+          "recovery": "33",
+          "inputSequence": "Down, Down-Forward, Forward + Light Punch"
+        },
+        {
+          "name": "Hadoken (Medium Punch)",
+          "startup": "14",
+          "totalFrames": "49",
+          "damage": "600",
+          "attackType": "High",
+          "onHit": "-3...",
+          "onBlock": "-9...",
+          "activeFrames": "...",
+          "recovery": "35",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Punch"
+        },
+        {
+          "name": "Hadoken (Heavy Punch)",
+          "startup": "12",
+          "totalFrames": "49",
+          "damage": "600",
+          "attackType": "High",
+          "onHit": "-5...",
+          "onBlock": "-11...",
+          "activeFrames": "...",
+          "recovery": "37",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Punch"
+        },
+        {
+          "name": "Hadoken (Overdrive)",
+          "startup": "12",
+          "totalFrames": "40",
+          "damage": "400, 400",
+          "attackType": "High",
+          "notes": "20% damage scaling to followup combo hits as of May 2024 patch.",
+          "onHit": "+2...",
+          "onBlock": "-2...",
+          "activeFrames": "...",
+          "recovery": "20",
+          "inputSequence": "Down, Down-Forward, Forward + PP"
+        },
+        {
+          "name": "Shoryuken (Light Punch)",
+          "startup": "5",
+          "totalFrames": "47",
+          "damage": "1100",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-14.",
+          "onHit": "Knockdown +33",
+          "onBlock": "-23",
+          "activeFrames": "10",
+          "recovery": "33",
+          "inputSequence": "Forward, Down, Down-Forward + Light Punch"
+        },
+        {
+          "name": "Shoryuken (Medium Punch)",
+          "startup": "6",
+          "totalFrames": "55",
+          "damage": "700, 600",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-8.",
+          "onHit": "Knockdown +33",
+          "onBlock": "-28",
+          "activeFrames": "10",
+          "recovery": "40",
+          "inputSequence": "Forward, Down, Down-Forward + Medium Punch"
+        },
+        {
+          "name": "Shoryuken (Heavy Punch)",
+          "startup": "7",
+          "totalFrames": "66",
+          "damage": "800, 300, 300",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-9. Projectile invincible on frames 5-11.",
+          "onHit": "Knockdown +25",
+          "onBlock": "-36",
+          "activeFrames": "10",
+          "recovery": "50",
+          "inputSequence": "Forward, Down, Down-Forward + Heavy Punch"
+        },
+        {
+          "name": "Shoryuken (Overdrive)",
+          "startup": "6",
+          "totalFrames": "67",
+          "damage": "200, 200, 200, 200, 200, 600",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-10. As of December 2024 patch: knockdown on hit from +29 to +22.",
+          "onHit": "Knockdown +22",
+          "onBlock": "-40",
+          "activeFrames": "10, 10",
+          "recovery": "50",
+          "inputSequence": "Forward, Down, Down-Forward + PP"
+        },
+        {
+          "name": "Shoryuken (Quick Dash)",
+          "startup": "8",
+          "totalFrames": "67",
+          "damage": "500, 450, 250, 250, 250",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-19. Projectile invincible on frames 3-11.",
+          "onHit": "Knockdown +25",
+          "onBlock": "-35",
+          "activeFrames": "11",
+          "recovery": "48",
+          "inputSequence": "Forward, Down, Down-Forward, Forward + P"
+        },
+        {
+          "name": "Tatsumaki Senpu-kyaku (Light Kick)",
+          "startup": "4...",
+          "totalFrames": "46",
+          "damage": "300, 400 (700)",
+          "attackType": "High",
+          "notes": "Second hit-only in parenthesis.",
+          "onHit": "Knockdown +46 (Variable Knockdown of +38 minimum)",
+          "onBlock": "-14",
+          "activeFrames": "2, 3",
+          "recovery": "32",
+          "inputSequence": "Down, Down-Back, Back + Light Kick"
+        },
+        {
+          "name": "Tatsumaki Senpu-kyaku (Medium Kick)",
+          "startup": "14...",
+          "totalFrames": "61",
+          "damage": "450, 450 (450)",
+          "attackType": "High",
+          "notes": "Second hit-only in parenthesis.",
+          "onHit": "Knockdown +44 (Knockdown +32)",
+          "onBlock": "-12",
+          "activeFrames": "2, 2",
+          "recovery": "31",
+          "inputSequence": "Down, Down-Back, Back + Medium Kick"
+        },
+        {
+          "name": "Tatsumaki Senpu-kyaku (Heavy Kick)",
+          "startup": "16...",
+          "totalFrames": "78",
+          "damage": "300, 600, 400",
+          "attackType": "High",
+          "onHit": "Knockdown +36",
+          "onBlock": "-12",
+          "activeFrames": "2, 2, 2",
+          "recovery": "31",
+          "inputSequence": "Down, Down-Back, Back + Heavy Kick"
+        },
+        {
+          "name": "Tatsumaki Senpu-kyaku (Overdrive)",
+          "startup": "9...",
+          "totalFrames": "90",
+          "damage": "300, 200, 200, 200, 800",
+          "attackType": "High",
+          "onHit": "Knockdown +28.",
+          "onBlock": "-61",
+          "activeFrames": "4, 3, 3, 3, 3",
+          "recovery": "34",
+          "inputSequence": "Down, Down-Back, Back + KK"
+        },
+        {
+          "name": "Tatsumaki Senpu-kyaku (Quick Dash)",
+          "startup": "13...",
+          "totalFrames": "78",
+          "damage": "200, 200, 200, 200, 400",
+          "attackType": "High",
+          "onHit": "+3",
+          "onBlock": "-9",
+          "activeFrames": "2, 3, 2, 3, 2",
+          "recovery": "20",
+          "inputSequence": "Down, Down-Back, Back + K"
+        },
+        {
+          "name": "Aerial Tatsumaki Senpu-kyaku",
+          "startup": "11",
+          "totalFrames": "**",
+          "damage": "900",
+          "attackType": "High",
+          "onHit": "Limited Juggle State on hit. Variable Knockdown of +47(?) minimum.",
+          "onBlock": "-3...",
+          "activeFrames": "2",
+          "recovery": "16...",
+          "inputSequence": "(Forward Jump Only) Down, Down-Back, Back + K"
+        },
+        {
+          "name": "Aerial Tatsumaki Senpu-kyaku (Overdrive)",
+          "startup": "11",
+          "totalFrames": "**",
+          "damage": "900",
+          "attackType": "High",
+          "notes": "7 more landing recovery frames on whiff (added in February 27, 2024 patch).",
+          "onHit": "+7...",
+          "onBlock": "-5...",
+          "activeFrames": "2, 2, 2",
+          "recovery": "14... (21...)",
+          "inputSequence": "(Forward Jump Only) Down, Down-Back, Back + KK"
+        },
+        {
+          "name": "Dragonlash Kick (Light Kick)",
+          "startup": "18",
+          "totalFrames": "44",
+          "damage": "950",
+          "attackType": "High",
+          "onHit": "+2",
+          "onBlock": "-4",
+          "activeFrames": "6",
+          "recovery": "21",
+          "inputSequence": "Forward, Down, Down-Forward + Light Kick"
+        },
+        {
+          "name": "Dragonlash Kick (Medium Kick)",
+          "startup": "23",
+          "totalFrames": "52",
+          "damage": "1100",
+          "attackType": "High",
+          "onHit": "+3",
+          "onBlock": "-8",
+          "activeFrames": "5",
+          "recovery": "25",
+          "inputSequence": "Forward, Down, Down-Forward + Medium Kick"
+        },
+        {
+          "name": "Dragonlash Kick (Heavy Kick)",
+          "startup": "28",
+          "totalFrames": "53",
+          "damage": "1200",
+          "attackType": "High",
+          "onHit": "+3",
+          "onBlock": "+1",
+          "activeFrames": "5",
+          "recovery": "21",
+          "inputSequence": "Forward, Down, Down-Forward + Heavy Kick"
+        },
+        {
+          "name": "Dragonlash Kick (Overdrive)",
+          "startup": "9",
+          "totalFrames": "47",
+          "damage": "700",
+          "attackType": "High",
+          "onHit": "+1",
+          "onBlock": "-9",
+          "activeFrames": "2, 7",
+          "recovery": "24",
+          "inputSequence": "Forward, Down, Down-Forward + KK"
+        },
+        {
+          "name": "Dragonlash Kick (Quick Dash)",
+          "startup": "9",
+          "totalFrames": "47",
+          "damage": "700",
+          "attackType": "High",
+          "onHit": "+2",
+          "onBlock": "-8",
+          "activeFrames": "4, 6",
+          "recovery": "24",
+          "inputSequence": "Forward, Down, Down-Forward + K"
+        },
+        {
+          "name": "Jinrai Kick (Light Kick)",
+          "startup": "12",
+          "totalFrames": "42",
+          "damage": "500",
+          "attackType": "High",
+          "onHit": "+1",
+          "onBlock": "-11",
+          "activeFrames": "3",
+          "recovery": "28",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Jinrai Kick (Medium Kick)",
+          "startup": "16",
+          "totalFrames": "42",
+          "damage": "600",
+          "attackType": "High",
+          "onHit": "+2",
+          "onBlock": "-7",
+          "activeFrames": "3",
+          "recovery": "24",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Jinrai Kick (Heavy Kick)",
+          "startup": "25",
+          "totalFrames": "46",
+          "damage": "700",
+          "attackType": "High",
+          "onHit": "Knockdown +42",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "19",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Jinrai Kick (Overdrive)",
+          "startup": "13",
+          "totalFrames": "40",
+          "damage": "600",
+          "attackType": "High",
+          "onHit": "-4",
+          "onBlock": "-7",
+          "activeFrames": "3",
+          "recovery": "25",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Kazekama Shin Kick",
+          "startup": "6",
+          "totalFrames": "28",
+          "damage": "500",
+          "attackType": "High",
+          "onHit": "+3",
+          "onBlock": "-5",
+          "activeFrames": "4",
+          "recovery": "19",
+          "inputSequence": "Jinrai Kick, Forward + Light Kick"
+        },
+        {
+          "name": "Gorai Axe Kick",
+          "startup": "18",
+          "totalFrames": "40",
+          "damage": "1000",
+          "attackType": "Overhead",
+          "notes": "Connecting with airborne opponents causes a ground bounce as of May 2024 patch.",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "20",
+          "inputSequence": "Jinrai Kick, Forward + Medium Kick"
+        },
+        {
+          "name": "Senka Snap Kick",
+          "startup": "10",
+          "totalFrames": "37",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Knockdown advantage varies based on initial Jinrai strength.",
+          "onHit": "Knockdown +33, Knockdown +33, Knockdown +38",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "25",
+          "inputSequence": "Jinrai Kick, Forward + Heavy Kick"
+        },
+        {
+          "name": "Kasai Thrust Kick",
+          "startup": "15",
+          "totalFrames": "46",
+          "damage": "500",
+          "attackType": "High",
+          "notes": "This third kick can be performed after any Overdrive Jinrai Kick followup. Knockdown varies based on followup kick's strength. June 2025 patch: initial scaling of 40%.",
+          "onHit": "Knockdown +31, Knockdown +34, Knockdown +42",
+          "onBlock": "-12, -12, -20",
+          "activeFrames": "3",
+          "recovery": "29",
+          "inputSequence": "Jinrai Kick (Overdrive), [Any Followup], Forward + K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Dragonlash Flame (Level 1)",
+          "startup": "7",
+          "damage": "2000",
+          "attackType": "High",
+          "notes": "Strike/throw invincible on frames 1-10. Breaks armor. As of December 2024 patch, knockdown +35 on hit changed to knockdown +9 on hit.",
+          "onHit": "Knockdown +9",
+          "onBlock": "-24",
+          "activeFrames": "3",
+          "recovery": "40",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + K"
+        },
+        {
+          "name": "Shippu Jinrai-kyaku (Level 2)",
+          "startup": "6",
+          "damage": "2800",
+          "attackType": "High",
+          "notes": "Breaks armor. June 2025 patch: on block changed from -19 to -5 (why tho?!?!)...",
+          "onHit": "Knockdown +36",
+          "onBlock": "-5",
+          "recovery": "32",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + K"
+        },
+        {
+          "name": "Shinryu Reppa (Level 3)",
+          "startup": "7",
+          "damage": "4000 (4500)",
+          "attackType": "High",
+          "notes": "Fully invincibile on frames 1-18. Breaks armor. Critical Art in parenthesis. June 2025 patch: on block from -30 to -40 (10 more frames recovery on whiff too).",
+          "onHit": "Knockdown +15 (Knockdown +21)",
+          "onBlock": "-40",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 123 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+20",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 123 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+6",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}

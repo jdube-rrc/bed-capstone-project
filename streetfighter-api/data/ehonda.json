@@ -1,0 +1,668 @@
+{
+  "character": "ehonda",
+  "url": "https://ultimateframedata.com/sf6/ehonda",
+  "scrapedAt": "2025-10-16T22:23:43.657Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "5",
+          "totalFrames": "17",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "10"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "10",
+          "totalFrames": "26 (28 on whiff)",
+          "damage": "700",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+6",
+          "onBlock": "+1",
+          "activeFrames": "4",
+          "recovery": "13 (15 on whiff)"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "8",
+          "totalFrames": "34",
+          "damage": "900",
+          "attackType": "High",
+          "cancellable": "Early Frames: Special, Super",
+          "notes": "Active frames 1-2 will whiff on grounded opponents if not close. If Sumo Spirit buff is active, late frames can be cancelled into Hundred Hand Slap. As of December 2024 patch: gained +2 advantage frames on hit, now +1...+4.",
+          "onHit": "+1...+4",
+          "onBlock": "-6...-3",
+          "activeFrames": "7",
+          "recovery": "20"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "4",
+          "totalFrames": "14",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "9"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "10",
+          "totalFrames": "29",
+          "damage": "700",
+          "attackType": "High",
+          "onHit": "+4",
+          "onBlock": "-3",
+          "activeFrames": "4",
+          "recovery": "16"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "8",
+          "totalFrames": "36",
+          "damage": "400, 400",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "-1",
+          "onBlock": "-5",
+          "activeFrames": "2, 4",
+          "recovery": "22"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "16",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "10"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "8",
+          "totalFrames": "27",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+4",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "16"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "11",
+          "totalFrames": "31",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "If Sumo Spirit buff is active, can cancel into Hundred Hand Slap.",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "4",
+          "recovery": "19"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "15",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "2",
+          "recovery": "9"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "9",
+          "totalFrames": "28",
+          "damage": "500",
+          "attackType": "Low",
+          "notes": "June 2025 patch: initial scaling of 20%.",
+          "onHit": "+6",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "17"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "11, 6",
+          "totalFrames": "38",
+          "damage": "900",
+          "attackType": "Low",
+          "notes": "Second hit only hits behind.",
+          "onHit": "Knockdown +30, **",
+          "onBlock": "-10, **",
+          "activeFrames": "3, 5",
+          "recovery": "24"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Forward + Heavy Kick",
+          "startup": "14",
+          "totalFrames": "37",
+          "damage": "900",
+          "attackType": "Low",
+          "onHit": "+1",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "21"
+        },
+        {
+          "name": "Power Stomp (Down-Forward + Heavy Kick)",
+          "startup": "22",
+          "totalFrames": "45",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "June 2025 patch: higher ground bounce on aerial hit, 20% combo scaling.",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "6",
+          "recovery": "18"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Light Punch, Medium Punch",
+          "startup": "5, 4",
+          "totalFrames": "17, 27",
+          "damage": "300, 600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Second hit scales to 90% (540).",
+          "onHit": "+4, Knockdown +34",
+          "onBlock": "-2, -10",
+          "activeFrames": "3, 4",
+          "recovery": "10, 20"
+        },
+        {
+          "name": "Medium Punch, Down-Forward + Heavy Kick",
+          "startup": "10, 22",
+          "totalFrames": "26, 45",
+          "damage": "700, 800",
+          "attackType": "High",
+          "onHit": "+4, +3",
+          "onBlock": "+1, -3",
+          "activeFrames": "10",
+          "recovery": "13, 18"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+5...",
+          "onBlock": "+0...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "6",
+          "damage": "600",
+          "attackType": "Overhead",
+          "notes": "Knockdown juggle on air-to-air hit as of May 2024 patch.",
+          "onHit": "+6...",
+          "onBlock": "+2...",
+          "activeFrames": "8",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "9",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+10...",
+          "onBlock": "+6...",
+          "activeFrames": "4",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "6",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+4...",
+          "onBlock": "+0...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "9",
+          "damage": "700",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+5...",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+9...",
+          "onBlock": "+5...",
+          "activeFrames": "8",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Forward Jump, Down + Medium Kick",
+          "startup": "11",
+          "damage": "500",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+11...",
+          "onBlock": "+7...",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Neutral Jump Heavy Punch",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Can steer to either the left or right after startup, must commit to chosen direction.",
+          "onHit": "+13...",
+          "onBlock": "+9...",
+          "activeFrames": "8",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Hundred Hand Slap (Light Punch)",
+          "startup": "12",
+          "totalFrames": "45 (53)",
+          "damage": "80, 80, 80, 80, 80, 400 (80, 80, 80, 80, 80, 450)",
+          "attackType": "High",
+          "notes": "Sumo Spirit buff in parenthesis.",
+          "onHit": "+2 (+4)",
+          "onBlock": "-4",
+          "activeFrames": "2, 2, 1, 2, 1, 2",
+          "recovery": "14",
+          "inputSequence": "Down, Down-Back, Back + Light Punch"
+        },
+        {
+          "name": "Hundred Hand Slap (Medium Punch)",
+          "startup": "18",
+          "totalFrames": "66 (71)",
+          "damage": "80, 80, 80, 80, 80, 80, 80, 80, 360 (80, 80, 80, 80, 80, 80, 80, 490)",
+          "attackType": "High",
+          "notes": "Sumo Spirit buff in parenthesis.",
+          "onHit": "+2 (+4)",
+          "onBlock": "-8",
+          "activeFrames": "2, 2, 1, 1, 1, 1, 1, 1, 2 (2, 2, 1, 1, 1, 1, 1, 2)",
+          "recovery": "17",
+          "inputSequence": "Down, Down-Back, Back + Medium Punch"
+        },
+        {
+          "name": "Hundred Hand Slap (Heavy Punch)",
+          "startup": "21",
+          "totalFrames": "81",
+          "damage": "80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 320 (80, 80, 80, 80, 80, 80, 80, 80, 80, 80, 450)",
+          "attackType": "High",
+          "onHit": "+2 (+4)",
+          "onBlock": "-8",
+          "activeFrames": "2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2 (2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 2)",
+          "recovery": "17",
+          "inputSequence": "Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Hundred Hand Slap (Overdrive)",
+          "startup": "19",
+          "totalFrames": "73 (77)",
+          "damage": "80, 80, 80, 80, 80, 80, 80, 80, 160",
+          "attackType": "High",
+          "onHit": "+4 (+6)",
+          "onBlock": "-3",
+          "activeFrames": "4, 2, 2, 2, 2, 2, 2, 2, 2 (4, 2, 2, 2, 2, 2, 1, 1, 2, **)",
+          "recovery": "12",
+          "inputSequence": "Down, Down-Back, Back + Heavy Punch"
+        },
+        {
+          "name": "Sumo Headbutt (Light Punch)",
+          "startup": "10",
+          "totalFrames": "30...",
+          "damage": "1300",
+          "attackType": "High",
+          "notes": "Deals 1400 damage on frames 10-13 as of may 2024 patch.",
+          "onHit": "Knockdown +40",
+          "onBlock": "-3",
+          "activeFrames": "...22",
+          "recovery": "20",
+          "inputSequence": "Back Charge, Forward + Light Punch"
+        },
+        {
+          "name": "Sumo Headbutt (Medium Punch)",
+          "startup": "10",
+          "totalFrames": "30...",
+          "damage": "1300",
+          "attackType": "High",
+          "notes": "Deals 1400 damage on frames 10-13 as of may 2024 patch.",
+          "onHit": "Knockdown +40",
+          "onBlock": "-3",
+          "activeFrames": "...24",
+          "recovery": "20",
+          "inputSequence": "Back Charge, Forward + Medium Punch"
+        },
+        {
+          "name": "Sumo Headbutt (Heavy Punch)",
+          "startup": "14",
+          "totalFrames": "34...",
+          "damage": "1400",
+          "attackType": "High",
+          "notes": "Deals 1500 damage on frames 14-17 as of may 2024 patch.",
+          "onHit": "Knockdown +40",
+          "onBlock": "-3",
+          "activeFrames": "...17",
+          "recovery": "20",
+          "inputSequence": "Back Charge, Forward + Heavy Punch"
+        },
+        {
+          "name": "Sumo Headbutt (Overdrive)",
+          "startup": "9",
+          "totalFrames": "44...",
+          "damage": "600, 1000",
+          "attackType": "High",
+          "onHit": "Knockdown +36",
+          "onBlock": "-20",
+          "activeFrames": "...19",
+          "recovery": "30",
+          "inputSequence": "Back Charge, Forward + PP"
+        },
+        {
+          "name": "Sumo Smash (Light Kick)",
+          "startup": "11",
+          "totalFrames": "65",
+          "damage": "400, 1000",
+          "attackType": "High, Overhead",
+          "onHit": "Knockdown +23...",
+          "onBlock": "+1",
+          "activeFrames": "4, 8",
+          "recovery": "26, 17",
+          "inputSequence": "Down Charge, Up + Light Kick"
+        },
+        {
+          "name": "Sumo Smash (Medium Kick)",
+          "startup": "11",
+          "totalFrames": "62",
+          "damage": "400, 1000",
+          "attackType": "High, Overhead",
+          "onHit": "Knockdown +23...",
+          "onBlock": "+1",
+          "activeFrames": "4, 7",
+          "recovery": "24, 17",
+          "inputSequence": "Down Charge, Up + Medium Kick"
+        },
+        {
+          "name": "Sumo Smash (Heavy Kick)",
+          "startup": "11",
+          "totalFrames": "59",
+          "damage": "400, 1000",
+          "attackType": "High, Overhead",
+          "onHit": "Knockdown +23...",
+          "onBlock": "+1",
+          "activeFrames": "4, 6",
+          "recovery": "22, 17",
+          "inputSequence": "Down Charge, Up + Heavy Kick"
+        },
+        {
+          "name": "Sumo Smash (Overdrive)",
+          "startup": "6",
+          "totalFrames": "56",
+          "damage": "400, 1000",
+          "attackType": "High, Overhead",
+          "notes": "Throw invincible frames 5-13.",
+          "onHit": "Knockdown +23...",
+          "onBlock": "+1",
+          "activeFrames": "12, 9",
+          "recovery": "13, 17",
+          "inputSequence": "Down Charge, Up + PP"
+        },
+        {
+          "name": "Oicho Throw (Light Kick)",
+          "startup": "6",
+          "totalFrames": "61 (174)",
+          "damage": "500, 1500",
+          "attackType": "Throw",
+          "notes": "As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.",
+          "onHit": "Knockdown +7",
+          "activeFrames": "4",
+          "recovery": "52 (167)",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + Light Kick"
+        },
+        {
+          "name": "Oicho Throw (Medium Kick)",
+          "startup": "6",
+          "totalFrames": "61 (174)",
+          "damage": "500, 2200",
+          "attackType": "Throw",
+          "notes": "As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.",
+          "onHit": "Knockdown +7",
+          "activeFrames": "4",
+          "recovery": "52 (167)",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + Medium Kick"
+        },
+        {
+          "name": "Oicho Throw (Heavy Kick)",
+          "startup": "6",
+          "totalFrames": "61 (174)",
+          "damage": "500, 2400",
+          "attackType": "Throw",
+          "notes": "As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.",
+          "onHit": "Knockdown +7",
+          "activeFrames": "4",
+          "recovery": "52 (167)",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + Heavy Kick"
+        },
+        {
+          "name": "Oicho Throw (Overdrive)",
+          "startup": "6",
+          "totalFrames": "61 (222)",
+          "damage": "500, 500, 1800",
+          "attackType": "Throw",
+          "notes": "As of December 2024 patch: startup from 7 to 6 frames, active from 3 to 4 frames.",
+          "onHit": "Knockdown +7",
+          "activeFrames": "4",
+          "recovery": "52 (215)",
+          "inputSequence": "Forward, Down-Forward, Down, Down-Back, Back + KK"
+        },
+        {
+          "name": "Sumo Dash",
+          "startup": "22...",
+          "totalFrames": "...51",
+          "inputSequence": "Down, Down-Forward, Forward + K"
+        },
+        {
+          "name": "Sumo Dash (Overdrive)",
+          "startup": "22...",
+          "totalFrames": "...34",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Triple Slap",
+          "startup": "9, 14",
+          "totalFrames": "49, 54",
+          "damage": "400, 400, 600",
+          "attackType": "High",
+          "notes": "As of December 2024 patch: extended hitbox on first and second hits horizontally. Reduced Arm hurtbox frames 0-14 and 25-28, reduced Feet hurtbox frames 9-33. Increased pushback on block.",
+          "onHit": "Knockdown +42, Knockdown +22",
+          "onBlock": "-3, -24",
+          "activeFrames": "3, 4",
+          "recovery": "22, 38",
+          "inputSequence": "Sumo Dash > Punch, Punch"
+        },
+        {
+          "name": "Triple Slap (Overdrive)",
+          "startup": "9, 14",
+          "totalFrames": "44, 54",
+          "damage": "400, 400, 800",
+          "attackType": "High",
+          "notes": "As of December 2024 patch: on-block changed from +2 to +3. Reduced pushback on block for first and second hits.",
+          "onHit": "Knockdown +45, Knockdown +54",
+          "onBlock": "+3, -24",
+          "activeFrames": "3, 4",
+          "recovery": "17, 38",
+          "inputSequence": "Sumo Dash (Overdrive) > Punch, Punch"
+        },
+        {
+          "name": "Taiho Cannon Lift",
+          "startup": "12",
+          "totalFrames": "49",
+          "damage": "400, 400",
+          "attackType": "High",
+          "onHit": "Limited Juggle State on hit. Knockdown +64.",
+          "onBlock": "-22",
+          "activeFrames": "2, 3",
+          "recovery": "32",
+          "inputSequence": "Sumo Dash > Down + P"
+        },
+        {
+          "name": "Taiho Cannon Lift (Overdrive)",
+          "startup": "12",
+          "totalFrames": "49",
+          "damage": "500, 500",
+          "attackType": "High",
+          "onHit": "Limited Juggle State on hit. Knockdown +64.",
+          "onBlock": "-22",
+          "activeFrames": "3, 3",
+          "recovery": "32",
+          "inputSequence": "Sumo Dash (Overdrive) > Down + P"
+        },
+        {
+          "name": "Neko Damashi",
+          "startup": "11",
+          "totalFrames": "29",
+          "damage": "600",
+          "attackType": "High",
+          "notes": "Destroys projectiles. If Sumo Spirit buff is active, can be cancelled into Hundred Hand Slap.",
+          "onHit": "+4",
+          "onBlock": "-3",
+          "activeFrames": "5",
+          "recovery": "14",
+          "inputSequence": "Down, Down + P"
+        },
+        {
+          "name": "Sumo Spirit",
+          "startup": "52",
+          "totalFrames": "52",
+          "notes": "Enables cancelling into Hundred Hand Slap for: Crouching Heavy Punch, late frames of Standing Heavy Punch, Neko Damashi. Buff lasts until consumed.",
+          "inputSequence": "Down, Down + K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Show of Force (Level 1)",
+          "startup": "7",
+          "damage": "2000",
+          "attackType": "High",
+          "notes": "Strike/throw invincible on frames 1-7. Breaks armor.",
+          "onHit": "Knockdown +13...",
+          "onBlock": "-33",
+          "activeFrames": "5",
+          "recovery": "48",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        },
+        {
+          "name": "Ultimate Killer Head Ram (Level 2)",
+          "startup": "12",
+          "damage": "2800",
+          "notes": "Fully invincible on frames 1-18. Breaks armor.",
+          "onHit": "Knockdown +13",
+          "onBlock": "-27",
+          "recovery": "67",
+          "inputSequence": "Back Charge, Forward, Back, Foward + K"
+        },
+        {
+          "name": "The Final Bout (Level 3)",
+          "startup": "9",
+          "damage": "4000 (4500)",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-11. Breaks armor. Critical Art in parenthesis.",
+          "onHit": "Knockdown +11 (Knockdown +34)",
+          "onBlock": "-34",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + P"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 140 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+17",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 123 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+14",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Air Throw",
+          "startup": "5",
+          "totalFrames": "**",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "**",
+          "activeFrames": "3"
+        }
+      ]
+    }
+  ]
+}

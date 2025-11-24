@@ -1,0 +1,650 @@
+{
+  "character": "sagat",
+  "url": "https://ultimateframedata.com/sf6/sagat",
+  "scrapedAt": "2025-10-16T22:42:26.746Z",
+  "categories": [
+    {
+      "categoryName": "Normal Attacks",
+      "categoryId": "normalattacks",
+      "moves": [
+        {
+          "name": "Standing Light Punch",
+          "startup": "5",
+          "totalFrames": "18",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+4",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "11"
+        },
+        {
+          "name": "Standing Medium Punch",
+          "startup": "6",
+          "totalFrames": "24",
+          "damage": "600",
+          "attackType": "High",
+          "onHit": "+4",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "17"
+        },
+        {
+          "name": "Standing Heavy Punch",
+          "startup": "15",
+          "totalFrames": "43",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "0",
+          "onBlock": "-5",
+          "activeFrames": "4",
+          "recovery": "25"
+        },
+        {
+          "name": "Standing Light Kick",
+          "startup": "7",
+          "totalFrames": "25",
+          "damage": "400",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "-1",
+          "onBlock": "-4",
+          "activeFrames": "2",
+          "recovery": "17"
+        },
+        {
+          "name": "Standing Medium Kick",
+          "startup": "11",
+          "totalFrames": "33",
+          "damage": "700",
+          "attackType": "High",
+          "cancellable": "Target Combo",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "4",
+          "recovery": "19"
+        },
+        {
+          "name": "Standing Heavy Kick",
+          "startup": "10",
+          "totalFrames": "40",
+          "damage": "600, 300",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "First and Second hit are both Special Cancellable.",
+          "onHit": "+1",
+          "onBlock": "-5",
+          "activeFrames": "6",
+          "recovery": "21"
+        },
+        {
+          "name": "Crouching Light Punch",
+          "startup": "4",
+          "totalFrames": "15",
+          "damage": "300",
+          "attackType": "High",
+          "cancellable": "Chain, Special, Super",
+          "onHit": "+5",
+          "onBlock": "-1",
+          "activeFrames": "2",
+          "recovery": "10"
+        },
+        {
+          "name": "Crouching Medium Punch",
+          "startup": "7",
+          "totalFrames": "26",
+          "damage": "600",
+          "attackType": "High",
+          "cancellable": "Special, Super, Target Combo",
+          "onHit": "+4",
+          "onBlock": "-1",
+          "activeFrames": "3",
+          "recovery": "17"
+        },
+        {
+          "name": "Crouching Heavy Punch",
+          "startup": "11",
+          "totalFrames": "35",
+          "damage": "800",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "onHit": "+1",
+          "onBlock": "-5",
+          "activeFrames": "4",
+          "recovery": "21"
+        },
+        {
+          "name": "Crouching Light Kick",
+          "startup": "5",
+          "totalFrames": "19",
+          "damage": "200",
+          "attackType": "Low",
+          "cancellable": "Chain",
+          "onHit": "+1",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "12"
+        },
+        {
+          "name": "Crouching Medium Kick",
+          "startup": "9",
+          "totalFrames": "29",
+          "damage": "600",
+          "attackType": "Low",
+          "onHit": "+4",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Crouching Heavy Kick",
+          "startup": "11",
+          "totalFrames": "39",
+          "damage": "900",
+          "attackType": "Low",
+          "onHit": "Knockdown +29",
+          "onBlock": "-12",
+          "activeFrames": "3",
+          "recovery": "26"
+        }
+      ]
+    },
+    {
+      "categoryName": "Unique Attacks",
+      "categoryId": "uniqueattacks",
+      "moves": [
+        {
+          "name": "Forward + Medium Punch (Tiger Heavy Elbow)",
+          "startup": "22",
+          "totalFrames": "43",
+          "damage": "700",
+          "attackType": "Overhead",
+          "onHit": "+3",
+          "onBlock": "-2",
+          "activeFrames": "3",
+          "recovery": "14, 27"
+        },
+        {
+          "name": "Back + Heavy Punch (Tiger Monolith)",
+          "startup": "8",
+          "totalFrames": "23",
+          "damage": "200, 600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Both hits are Special Cancellable.",
+          "onHit": "Knockdown Juggle +34",
+          "onBlock": "-10",
+          "activeFrames": "2, 5",
+          "recovery": "25"
+        },
+        {
+          "name": "Forward + Light Kick (Low Step Kick)",
+          "startup": "18",
+          "totalFrames": "38",
+          "damage": "700",
+          "attackType": "High",
+          "onHit": "+3",
+          "onBlock": "-3",
+          "activeFrames": "3",
+          "recovery": "18"
+        },
+        {
+          "name": "Forward + Heavy Kick (High Step Kick)",
+          "startup": "16",
+          "totalFrames": "40",
+          "damage": "900",
+          "attackType": "High",
+          "notes": "Whiffs on crouching opponents.",
+          "onHit": "+7",
+          "onBlock": "+4",
+          "activeFrames": "4",
+          "recovery": "21"
+        }
+      ]
+    },
+    {
+      "categoryName": "Target Combos",
+      "categoryId": "targetcombos",
+      "moves": [
+        {
+          "name": "Medium Kick, Heavy Kick (Middle Step Kick)",
+          "startup": "11, 19",
+          "totalFrames": "19, 44",
+          "damage": "700, 800",
+          "attackType": "High",
+          "onHit": "+3, Knockdown +38",
+          "onBlock": "-3, -8",
+          "activeFrames": "4, 3",
+          "recovery": "19, 23"
+        },
+        {
+          "name": "Heavy Punch, Heavy Kick (Tiger Sting)",
+          "startup": "15, 16",
+          "totalFrames": "43, 45",
+          "damage": "800, 1200",
+          "attackType": "High",
+          "onHit": "0, Knockdown +39",
+          "onBlock": "-5, -12",
+          "activeFrames": "4, 3",
+          "recovery": "25, 27"
+        },
+        {
+          "name": "Crouching Medium Punch, Heavy Kick (Tiger Rise)",
+          "startup": "7, 20",
+          "totalFrames": "25, 49",
+          "damage": "600, 600",
+          "attackType": "High",
+          "cancellable": "Special, Super",
+          "notes": "Second hit only connects on Counter Hit/Punish Counter.",
+          "onHit": "4, 0",
+          "onBlock": "-1, -14",
+          "activeFrames": "3, 3",
+          "recovery": "16, 27"
+        },
+        {
+          "name": "Crouching Medium Punch, Heavy Kick (Tiger Rise)",
+          "startup": "7, 16",
+          "totalFrames": "25, 45",
+          "damage": "600, 1000",
+          "attackType": "High",
+          "cancellable": "Super",
+          "onHit": "4, Knockdown Juggle +32",
+          "onBlock": "-1, -10",
+          "activeFrames": "3, 4",
+          "recovery": "16, 26"
+        }
+      ]
+    },
+    {
+      "categoryName": "Jump Attacks",
+      "categoryId": "jumpattacks",
+      "moves": [
+        {
+          "name": "Jump Light Punch",
+          "startup": "4",
+          "damage": "300",
+          "attackType": "Overhead",
+          "onHit": "+6...+9",
+          "onBlock": "+3...+5",
+          "activeFrames": "7",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Punch",
+          "startup": "8",
+          "damage": "350, 350",
+          "attackType": "Overhead, High",
+          "notes": "Juggle state on air hit.",
+          "onHit": "+10...+11",
+          "onBlock": "+6...+7",
+          "activeFrames": "5",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Punch",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Forces knockdown on air-to-air hit.",
+          "onHit": "+9...+15",
+          "onBlock": "+5...+11",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Light Kick",
+          "startup": "5",
+          "damage": "300",
+          "attackType": "Overhead",
+          "notes": "Crosses up.",
+          "onHit": "+5...+10",
+          "onBlock": "+1...+6",
+          "activeFrames": "10",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Medium Kick",
+          "startup": "8",
+          "damage": "700",
+          "attackType": "Overhead",
+          "onHit": "+10...+15",
+          "onBlock": "+5...+10",
+          "activeFrames": "8",
+          "recovery": "3 Landing"
+        },
+        {
+          "name": "Jump Heavy Kick",
+          "startup": "10",
+          "damage": "800",
+          "attackType": "Overhead",
+          "onHit": "+12...+15",
+          "onBlock": "+8...+11",
+          "activeFrames": "6",
+          "recovery": "3 Landing"
+        }
+      ]
+    },
+    {
+      "categoryName": "Special Moves",
+      "categoryId": "specialmoves",
+      "moves": [
+        {
+          "name": "Low Tiger Shot (Light Punch)",
+          "startup": "16",
+          "totalFrames": "50",
+          "damage": "600",
+          "attackType": "High",
+          "onHit": "-3...",
+          "onBlock": "-7...",
+          "activeFrames": "...",
+          "recovery": "33",
+          "inputSequence": "Down, Down-Forward, Forward + Light Punch"
+        },
+        {
+          "name": "High Tiger Shot (Medium Punch or Heavy Punch)",
+          "startup": "16 (12)",
+          "totalFrames": "42 (42)",
+          "damage": "700 (700)",
+          "attackType": "High",
+          "notes": "Whiffs on crouching opponents.",
+          "onHit": "+3... (-1...)",
+          "onBlock": "+3... (-1...)",
+          "activeFrames": "...",
+          "recovery": "26 (30)",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Punch (or Heavy Punch)"
+        },
+        {
+          "name": "Low Tiger Shot (Overdrive)",
+          "startup": "12",
+          "totalFrames": "44",
+          "damage": "400, 400",
+          "attackType": "High",
+          "onHit": "Knockdown +52...",
+          "onBlock": "-1...",
+          "activeFrames": "...",
+          "recovery": "23",
+          "inputSequence": "Down, Down-Forward, Forward + LP+MP (or LP+HP)"
+        },
+        {
+          "name": "High Tiger Shot (Overdrive)",
+          "startup": "21",
+          "totalFrames": "44",
+          "damage": "200, 200, 600",
+          "attackType": "High",
+          "notes": "Connects with crouching opponents (is lower and larger than non-overdrive High Tiger Shot).",
+          "onHit": "Knockdown +63...",
+          "onBlock": "+6...",
+          "activeFrames": "...",
+          "recovery": "15",
+          "inputSequence": "Down, Down-Forward, Forward + MP+HP"
+        },
+        {
+          "name": "Tiger Uppercut (Light Punch)",
+          "startup": "5",
+          "totalFrames": "61",
+          "damage": "1100",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-14.",
+          "onHit": "Knockdown +32",
+          "onBlock": "-37",
+          "activeFrames": "10",
+          "recovery": "47",
+          "inputSequence": "Forward, Down, Down-Forward + Light Punch"
+        },
+        {
+          "name": "Tiger Uppercut (Medium Punch)",
+          "startup": "10",
+          "totalFrames": "74",
+          "damage": "1400",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-13.",
+          "onHit": "Knockdown +27",
+          "onBlock": "-45",
+          "activeFrames": "10",
+          "recovery": "55",
+          "inputSequence": "Forward, Down, Down-Forward + Medium Punch"
+        },
+        {
+          "name": "Tiger Uppercut (Heavy Punch)",
+          "startup": "18...31 [35]",
+          "totalFrames": "82 [99 / 198 animation]",
+          "damage": "1600 [1800, 1000]",
+          "attackType": "High",
+          "notes": "Anti-air invincible on frames 1-21 [charged version 1-9, 28-38]. Hold punch to charge, charge data in brackets. Late hit full charge does not animate, does 1700 damage.",
+          "onHit": "Knockdown +27 [Knockdown +23]",
+          "onBlock": "-45 [-45]",
+          "activeFrames": "10 [10]",
+          "recovery": "55 [55]",
+          "inputSequence": "Forward, Down, Down-Forward + Heavy Punch"
+        },
+        {
+          "name": "Tiger Uppercut (Overdrive)",
+          "startup": "8",
+          "totalFrames": "72",
+          "damage": "600, 200, 200, 200, 200, 200",
+          "attackType": "High",
+          "notes": "Fully invincible on frames 1-12.",
+          "onHit": "Knockdown +25",
+          "onBlock": "-43",
+          "activeFrames": "12",
+          "recovery": "53",
+          "inputSequence": "Forward, Down, Down-Forward + PP"
+        },
+        {
+          "name": "Tiger Knee Crush (Light Kick)",
+          "startup": "14",
+          "totalFrames": "42",
+          "damage": "800",
+          "attackType": "High",
+          "notes": "Meaties easily on crouching opponents at closer range than vs standing opponents.",
+          "onHit": "Knockdown +36...+46",
+          "onBlock": "-8...+2",
+          "activeFrames": "11",
+          "recovery": "18",
+          "inputSequence": "Down, Down-Forward, Forward + Light Kick"
+        },
+        {
+          "name": "Tiger Knee Crush (Medium Kick)",
+          "startup": "18",
+          "totalFrames": "46",
+          "damage": "1000",
+          "attackType": "High",
+          "notes": "Meaties easily on crouching opponents at closer range than vs standing opponents.",
+          "onHit": "Knockdown +39...+49",
+          "onBlock": "-7...+3",
+          "activeFrames": "11",
+          "recovery": "18",
+          "inputSequence": "Down, Down-Forward, Forward + Medium Kick"
+        },
+        {
+          "name": "Tiger Knee Crush (Heavy Kick)",
+          "startup": "22",
+          "totalFrames": "58",
+          "damage": "500, 900",
+          "attackType": "High",
+          "notes": "First hit is super cancellable into level 3. Second hit meaties easily on crouching opponents even at point blank, but opponent can still react and stand block after crouch blocking first hit. At farther ranges, only second hit connects and easily meaties like LK/MK versions.",
+          "onHit": "Knockdown +41...+47",
+          "onBlock": "-5...+5",
+          "activeFrames": "4, 11",
+          "recovery": "18",
+          "inputSequence": "Down, Down-Forward, Forward + Heavy Kick"
+        },
+        {
+          "name": "Tiger Knee Crush (Overdrive)",
+          "startup": "19",
+          "totalFrames": "54",
+          "damage": "600, 1000",
+          "attackType": "High",
+          "notes": "Can follow up in corner due to blowback.",
+          "onHit": "Knockdown Juggle/Blowback +44...+65",
+          "onBlock": "-2...0",
+          "activeFrames": "3, 11",
+          "recovery": "18",
+          "inputSequence": "Down, Down-Forward, Forward + KK"
+        },
+        {
+          "name": "Tiger Nexus (Light Kick)",
+          "startup": "17",
+          "totalFrames": "42",
+          "damage": "500",
+          "attackType": "High",
+          "notes": "20% scaling to followup hits. Launches into juggle on Counter Hit.",
+          "onHit": "+2",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "23",
+          "inputSequence": "Down, Down-Back, Back + Light Kick"
+        },
+        {
+          "name": "Tiger Nexus (Medium Kick)",
+          "startup": "20",
+          "totalFrames": "45",
+          "damage": "500",
+          "attackType": "High",
+          "notes": "20% scaling to followup hits. Launches into juggle on Counter Hit.",
+          "onHit": "+2",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "23",
+          "inputSequence": "Down, Down-Back, Back + Medium Kick"
+        },
+        {
+          "name": "Tiger Nexus (Heavy Kick)",
+          "startup": "28",
+          "totalFrames": "55",
+          "damage": "300, 200",
+          "attackType": "High",
+          "notes": "20% scaling to followup hits.",
+          "onHit": "+4",
+          "onBlock": "-3",
+          "activeFrames": "3, 4",
+          "recovery": "20",
+          "inputSequence": "Down, Down-Back, Back + Heavy Kick"
+        },
+        {
+          "name": "Tiger Nexus (Overdrive)",
+          "startup": "23",
+          "totalFrames": "50",
+          "damage": "300, 200",
+          "attackType": "High",
+          "notes": "20% scaling to followup hits.",
+          "onHit": "+4",
+          "onBlock": "-3",
+          "activeFrames": "3, 4",
+          "recovery": "20",
+          "inputSequence": "Down, Down-Back, Back + KK"
+        },
+        {
+          "name": "Mighty Tiger (Tiger Nexus Followup)",
+          "startup": "15",
+          "totalFrames": "39",
+          "damage": "800",
+          "attackType": "Overhead",
+          "notes": "Ground bounce juggle state on air hit (i.e. if initial hit anti-airs or counter hits). Strength of Tiger Nexus does not change followup properties.",
+          "onHit": "+3",
+          "onBlock": "-5",
+          "activeFrames": "3",
+          "recovery": "22",
+          "inputSequence": "Tiger Nexus > Forward + LK"
+        },
+        {
+          "name": "Greedy Tiger (Tiger Nexus Followup)",
+          "startup": "17",
+          "totalFrames": "36",
+          "damage": "1000",
+          "attackType": "High",
+          "notes": "Whiffs on crouching opponents. Strength of Tiger Nexus does not change followup properties.",
+          "onHit": "Knockdown Juggle +48",
+          "onBlock": "+4",
+          "activeFrames": "3",
+          "recovery": "17",
+          "inputSequence": "Tiger Nexus > Forward + MK"
+        },
+        {
+          "name": "Nova Tiger (Tiger Nexus Followup)",
+          "startup": "21",
+          "totalFrames": "42",
+          "damage": "1000",
+          "attackType": "High",
+          "notes": "Does not combo out of LK or MK Tiger Nexus unless they Counter Hit. Strength of Tiger Nexus does not change followup properties.",
+          "onHit": "Knockdown Juggle +62",
+          "onBlock": "+2",
+          "activeFrames": "3",
+          "recovery": "19",
+          "inputSequence": "Tiger Nexus > Forward + HK"
+        }
+      ]
+    },
+    {
+      "categoryName": "Super Arts",
+      "categoryId": "superarts",
+      "moves": [
+        {
+          "name": "Tiger Cannon (Level 1)",
+          "startup": "7",
+          "damage": "2200",
+          "attackType": "High",
+          "notes": "Strike/Throw invincible on frames 1-13.",
+          "onHit": "Knockdown +22...+34",
+          "onBlock": "-31...-19",
+          "recovery": "42",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + P"
+        },
+        {
+          "name": "Savage Tiger (Level 2)",
+          "startup": "10",
+          "damage": "3000 / 1700 / 2700 / 2700",
+          "attackType": "High",
+          "notes": "Fully invincible frames 1-14. Breaks armor. Can hold directions during animation to change properties, listed as: Neutral / Forward / Back / Down.",
+          "onHit": "Knockdown +4 / Juggle +53 / Knockdown +7 / Knockdown +19",
+          "onBlock": "-58",
+          "recovery": "73",
+          "inputSequence": "Down, Down-Back, Back, Down, Down-Back, Back + K"
+        },
+        {
+          "name": "Tiger Vanquisher (Level 3)",
+          "startup": "12",
+          "damage": "4000 (4500)",
+          "attackType": "High",
+          "notes": "Fully invincibile on frames 1-15. Breaks armor. Critical Art in parenthesis.",
+          "onHit": "Knockdown +15",
+          "onBlock": "-51",
+          "activeFrames": "4",
+          "recovery": "67",
+          "inputSequence": "Down, Down-Forward, Forward, Down, Down-Forward, Forward + K"
+        }
+      ]
+    },
+    {
+      "categoryName": "Misc.",
+      "categoryId": "misc",
+      "moves": [
+        {
+          "name": "Stats"
+        },
+        {
+          "name": "Forward Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 16 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+21",
+          "activeFrames": "3",
+          "recovery": "23"
+        },
+        {
+          "name": "Back Throw",
+          "startup": "5",
+          "totalFrames": "30 (whiff) / 149 (hit)",
+          "damage": "1200",
+          "attackType": "Throw",
+          "onHit": "+21",
+          "activeFrames": "3",
+          "recovery": "23"
+        }
+      ]
+    }
+  ]
+}
