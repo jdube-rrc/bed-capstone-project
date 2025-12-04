@@ -1,7 +1,42 @@
+// Mock authenticate to allow write operations for this suite
+jest.mock('../src/api/v1/middleware/authenticate', () => ({
+  __esModule: true,
+  default: (req: any, res: any, next: any) => {
+    res.locals = res.locals || {};
+    res.locals.role = 'admin';
+    return next();
+  }
+}));
+
+// Mock dataService with an in-memory store for deterministic tests
+jest.mock('../src/api/v1/service/dataService', () => {
+  const store = new Map();
+  return {
+    __esModule: true,
+    default: {
+      getAll: jest.fn(async () => Array.from(store.values())),
+      getById: jest.fn(async (id: string) => store.get(id)),
+      create: jest.fn(async (payload: any) => {
+        const id = payload.character || `mock-${Date.now()}`;
+        const item = { ...payload, character: id };
+        store.set(id, item);
+        return item;
+      }),
+      update: jest.fn(async (id: string, payload: any) => {
+        if (!store.has(id)) return null;
+        const updated = { ...store.get(id), ...payload };
+        store.set(id, updated);
+        return updated;
+      }),
+      remove: jest.fn(async (id: string) => store.delete(id)),
+    }
+  };
+});
+
 import request from 'supertest';
 import app from '../src/app';
 
-describe('Character CRUD (light)', () => {
+describe('Character CRUD', () => {
   const base = '/api/v1/characters';
   const testId = `testchar-${Date.now()}`;
 
@@ -52,7 +87,7 @@ describe('Character CRUD (light)', () => {
   });
 });
 
-describe('Stats endpoints (light)', () => {
+describe('Stats endpoints', () => {
   test('GET /api/v1/stats/top-damage returns 200 and results array', async () => {
     const res = await request(app).get('/api/v1/stats/top-damage?limit=5');
     expect(res.status).toBe(200);

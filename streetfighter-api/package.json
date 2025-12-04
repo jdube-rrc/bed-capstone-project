@@ -7,22 +7,30 @@
     "start": "node dist/server.js",
     "dev": "ts-node-dev --respawn --transpile-only src/server.ts",
     "build": "tsc",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "set-admin-claims": "node scripts/set_admin_claims.js",
+    "import-to-firestore": "node scripts/import_to_firestore.js",
+    "generate-admin-id-token": "node scripts/generate_admin_id_token.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^12.0.0",
+    "helmet": "^8.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.19",
     "@types/express": "^4.17.17",
-    "@types/node": "^20.0.0",
-    "ts-node-dev": "^2.0.0",
-    "typescript": "^5.0.0",
-    "jest": "^29.0.0",
-    "ts-jest": "^29.0.0",
     "@types/jest": "^29.0.0",
+    "@types/node": "^20.0.0",
+    "@types/supertest": "^2.0.12",
+    "jest": "^29.0.0",
     "supertest": "^6.3.3",
-    "@types/supertest": "^2.0.12"
+    "ts-jest": "^29.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.0"
   }
 }
